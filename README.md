@@ -61,22 +61,22 @@ See RQ1 results [here](human_evaluation/ReadMe.md).
 
 * As shown in Teble IV, only our MCMD dataset can be used to evaluate ATOM. This is because ATOM needs to know the complete code of the modified functions in order to extract the AST information. However, this information is unavailable in existing public datasets.
 
-RQ2 results: [RQ2.ipynb](https://nbviewer.jupyter.org/urls/anonymous.4open.science/r/CommitMsgEmpirical/research_questions/RQ2.ipynb)
+RQ2 results: [RQ2.ipynb](research_questions/RQ2.ipynb)
 
 
 ### (RQ3) Why do we need a new dataset MCMD for evaluating commit message generation?
 
-RQ3 results: [RQ3.ipynb](https://nbviewer.jupyter.org/urls/anonymous.4open.science/r/CommitMsgEmpirical/research_questions/RQ3.ipynb)
+RQ3 results: [RQ3.ipynb](research_questions/RQ3.ipynb)
 
 
 ### (RQ4) What is the impact of different dataset splitting strategies?
 
-RQ4 results: [RQ4.ipynb](https://nbviewer.jupyter.org/urls/anonymous.4open.science/r/CommitMsgEmpirical/research_questions/RQ4.ipynb)
+RQ4 results: [RQ4.ipynb](research_questions/RQ4.ipynb)
 
 
 ## Possible Ways to Improve
 
-Evaluation results of our improvements to NNGen can be found in [nngen_improvement.ipynb](https://nbviewer.jupyter.org/urls/anonymous.4open.science/r/CommitMsgEmpirical/discussion/nngen_improvement.ipynb)
+Evaluation results of our improvements to NNGen can be found in [nngen_improvement.ipynb](discussion/nngen_improvement.ipynb)
 
 
 [CommitGen]: https://sjiang1.github.io/commitgen/ "S. Jiang, A. Armaly, and C. McMillan, “Automatically generating commit messages from diffs using neural machine translation,” in ASE, 2017."
