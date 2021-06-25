@@ -1,0 +1,1321 @@
+url,Generation,Reference,code_diff,Author1,Author2,Author3
+https://github.com/jenkinsci/jenkins/commit/286d3141854b48edb38e8e802f0d85fd1b8ffd40,Noting,Noting,"diff --git a/changelog.html b/changelog.html
+index 945b151e60be..a526609a01fb 100644
+--- a/changelog.html
++++ b/changelog.html
+@@ -106,6 +106,9 @@
+   <li class=""rfe"">
+     Don't advertise POSTing config.xml on master
+     (<a href=""https://issues.jenkins-ci.org/browse/JENKINS-16264"">issue 16264</a>)
++  <li class=""bug"">
++    Handle null parameter values to avoid massive executor deaths
++    (<a href=""https://issues.jenkins-ci.org/browse/JENKINS-15094"">issue 15094</a>)
+ </ul>
+ </div><!--=TRUNK-END=-->
+ 
+",4,4,4
+https://github.com/spring-projects/spring-framework/commit/33d37e86800ea4500957eb82d4be87e81c3b940f,Polish,Polish,"diff --git a/spring-context/src/main/java/org/springframework/context/annotation/ComponentScan.java b/spring-context/src/main/java/org/springframework/context/annotation/ComponentScan.java
+index ffd202737b0c..eaab654ec702 100644
+--- a/spring-context/src/main/java/org/springframework/context/annotation/ComponentScan.java
++++ b/spring-context/src/main/java/org/springframework/context/annotation/ComponentScan.java
+@@ -163,7 +163,7 @@
+ 		 * <p>Specifying zero classes is permitted but will have no effect on component
+ 		 * scanning.
+ 		 */
+-		Class<?>[] value(); //doco
++		Class<?>[] value();
+ 	}
+ 
+ }
+",4,4,4
+https://github.com/ctripcorp/apollo/commit/84690cc60ff3bcc8ba3c0daf5845063ce59d6398,add known user,add known user,"diff --git a/doc/images/known-users/xinyongfei.png b/doc/images/known-users/xinyongfei.png
+new file mode 100644
+index 0000000000..1de207851b
+Binary files /dev/null and b/doc/images/known-users/xinyongfei.png differ
+",4,4,4
+https://github.com/apache/shardingsphere/commit/8e2f52a597ed8a29752b7e07e3d7bcee15e640c4,", refactor JDBCXABackendDataSourceFactory",", refactor JDBCXABackendDataSourceFactory","diff --git a/sharding-proxy-postgres/src/main/java/org/apache/shardingsphere/shardingproxy/backend/communication/jdbc/datasource/JDBCXABackendDataSourceFactory.java b/sharding-proxy-postgresql/src/main/java/org/apache/shardingsphere/shardingproxy/backend/communication/jdbc/datasource/JDBCXABackendDataSourceFactory.java
+similarity index 100%
+rename from sharding-proxy-postgres/src/main/java/org/apache/shardingsphere/shardingproxy/backend/communication/jdbc/datasource/JDBCXABackendDataSourceFactory.java
+rename to sharding-proxy-postgresql/src/main/java/org/apache/shardingsphere/shardingproxy/backend/communication/jdbc/datasource/JDBCXABackendDataSourceFactory.java
+",4,4,4
+https://github.com/redisson/redisson/commit/c5bc1e9cd3510939ef4ce189456d2eb6ac63677c,kryo updated,kryo updated,"diff --git a/redisson/pom.xml b/redisson/pom.xml
+index fca2a884ae..a9056e8812 100644
+--- a/redisson/pom.xml
++++ b/redisson/pom.xml
+@@ -197,7 +197,7 @@
+         <dependency>
+             <groupId>com.esotericsoftware</groupId>
+             <artifactId>kryo</artifactId>
+-            <version>5.0.0</version>
++            <version>5.0.3</version>
+             <scope>provided</scope>
+             <optional>true</optional>
+         </dependency>
+",4,4,4
+https://github.com/libgdx/libgdx/commit/95740b7b5906a1c84d423da50fae3fd923a0f8c6,Update CHANGES,Update CHANGES,"diff --git a/CHANGES b/CHANGES
+index 06e5d826f0..b8761d6f5b 100644
+--- a/CHANGES
++++ b/CHANGES
+@@ -1,4 +1,6 @@
+ [1.2.1]
++- API Addition: multiple recipients are now supported by MessageDispatcher.
++- API Change: State#onMessage now takes the message receiver as argument.
+ - API Addition: added StackStateMachine to the gdx-ai extension.
+ - API change: ShapeRenderer: rect methods accept scale, more methods can work under both line and fill types, auto shape type changing.
+ - API change: Built-in ShapeRenderer debugging for Stage, see https://github.com/libgdx/libgdx/pull/2011
+",4,4,4
+https://github.com/google/ExoPlayer/commit/a3ca5c48b388cdcce89b016d0c635b31ec1f88e7,Update ISSUE_TEMPLATE,Update ISSUE_TEMPLATE,"diff --git a/ISSUE_TEMPLATE b/ISSUE_TEMPLATE
+index 3667c8cc969..6e55f3dcd66 100644
+--- a/ISSUE_TEMPLATE
++++ b/ISSUE_TEMPLATE
+@@ -1,5 +1,7 @@
++*** PLEASE DO NOT IGNORE THIS ISSUE TEMPLATE ***
++
+ Please search the existing issues before filing a new one, including issues that
+-are closed. When filing a new issue please include all of the following, unless
++are closed. When filing a new issue please include ALL of the following, unless
+ you're certain that they're not useful for the particular issue being reported.
+ 
+ - A description of the issue.
+",4,4,4
+https://github.com/apache/shardingsphere/commit/dc4273686644d327a2810d365ed5cbceeb1cafa0,add select_order_by_with_table_star_table_name,change name select_order_by_with_table_star_table_name for parser,"diff --git a/sharding-core/src/test/resources/parser/select_order_by.xml b/sharding-core/src/test/resources/parser/select_order_by.xml
+index 44b30ea4558..44f829146b4 100644
+--- a/sharding-core/src/test/resources/parser/select_order_by.xml
++++ b/sharding-core/src/test/resources/parser/select_order_by.xml
+@@ -128,7 +128,7 @@
+         </order-by-columns>
+     </parser-result>
+ 
+-    <parser-result sql-case-id=""select_order_by_with_table_star_alias_name"">
++    <parser-result sql-case-id=""select_order_by_with_table_star_table_name"">
+         <tables>
+             <table name=""t_order"" />
+         </tables>
+",2,1,2
+https://github.com/libgdx/libgdx/commit/e9219d9f30d01cb669efc39b22e79056c9b4825d,updated CHANGES,Update CHANGES,"diff --git a/CHANGES b/CHANGES
+index 467d6555e1..f80ce392ca 100644
+--- a/CHANGES
++++ b/CHANGES
+@@ -1,4 +1,7 @@
+-[1.4.2]
++[1.5.1]
++
++
++[1.5.0]
+ - API Addition: IOSInput now uses CMCoreMotion for accelerometer and magnetometer
+ - API Addition: Added getter for UITextField on IOS for keyboard customization 
+ - API Addition: Added ability to save PixmapPackers to atlas files. See PixmapPackerIO.
+",4,4,4
+https://github.com/elastic/elasticsearch/commit/74bd4f78818b3fb60c69dc3c985961d7b861605c,remove unused logger,Remove unused property,"diff --git a/pom.xml b/pom.xml
+index a752d6531d265..e0baedb018c68 100644
+--- a/pom.xml
++++ b/pom.xml
+@@ -51,7 +51,6 @@ governing permissions and limitations under the License. -->
+         <tests.client.ratio></tests.client.ratio>
+         <tests.jvm.argline></tests.jvm.argline>
+         <es.logger.level>INFO</es.logger.level>
+-        <es.config>${project.build.testOutputDirectory}/elasticsearch.yml</es.config>
+     </properties>
+ 
+     <dependencies>
+",3,3,3
+https://github.com/google/ExoPlayer/commit/3c6b72ee29f5cebc1079648a73c461a26e035fa8,Fix nullness error,Fix nullness test,"diff --git a/library/core/src/main/java/com/google/android/exoplayer2/database/ExoDatabaseProvider.java b/library/core/src/main/java/com/google/android/exoplayer2/database/ExoDatabaseProvider.java
+index cded324de1b..49c16ebbbf8 100644
+--- a/library/core/src/main/java/com/google/android/exoplayer2/database/ExoDatabaseProvider.java
++++ b/library/core/src/main/java/com/google/android/exoplayer2/database/ExoDatabaseProvider.java
+@@ -115,6 +115,7 @@ private static void wipeDatabase(SQLiteDatabase db) {
+ 
+     private final File file;
+ 
++    @SuppressWarnings(""nullness:argument.type.incompatible"")
+     public DatabaseFileProvidingContext(File file) {
+       super(/* base= */ null);
+       this.file = file;
+",3,3,3
+https://github.com/nostra13/Android-Universal-Image-Loader/commit/24ca7dd0dbaee8a011aad6195f33e840793e7df9,Built the latest version,Built the latest snapshot,"diff --git a/sample/libs/universal-image-loader-1.8.7-snapshot-with-sources.jar b/sample/libs/universal-image-loader-1.8.7-snapshot-with-sources.jar
+index 91541f71..9328e9bd 100644
+Binary files a/sample/libs/universal-image-loader-1.8.7-snapshot-with-sources.jar and b/sample/libs/universal-image-loader-1.8.7-snapshot-with-sources.jar differ
+",3,3,3
+https://github.com/spring-projects/spring-boot/commit/136cdacb401f867e3ab2e299c209994f985ac98e,Add Gradle Wrapper validation,Add Gradle Wrapper Validation GitHub Action,"diff --git a/.github/workflows/gradle-wrapper-validation.yml b/.github/workflows/gradle-wrapper-validation.yml
+new file mode 100644
+index 000000000000..405a2b306592
+--- /dev/null
++++ b/.github/workflows/gradle-wrapper-validation.yml
+@@ -0,0 +1,10 @@
++name: ""Validate Gradle Wrapper""
++on: [push, pull_request]
++
++jobs:
++  validation:
++    name: ""Validation""
++    runs-on: ubuntu-latest
++    steps:
++      - uses: actions/checkout@v2
++      - uses: gradle/wrapper-validation-action@v1
+",3,3,3
+https://github.com/jenkinsci/jenkins/commit/fa172f4171a455f8254307e98ae3d2e1e4b65c8c,typo,typo .,"diff --git a/core/src/main/java/hudson/model/Hudson.java b/core/src/main/java/hudson/model/Hudson.java
+index 724b100436f2..e2e50cdd5abc 100644
+--- a/core/src/main/java/hudson/model/Hudson.java
++++ b/core/src/main/java/hudson/model/Hudson.java
+@@ -1172,7 +1172,7 @@ public TopLevelItem call() throws Exception {
+                 slave.getAssignedLabels();
+         }
+ 
+-        // read in old data that doens't have the security field set
++        // read in old data that doesn't have the security field set
+         if(authorizationStrategy==null) {
+             if(useSecurity==null || !useSecurity)
+                 authorizationStrategy = AuthorizationStrategy.UNSECURED;
+",4,4,4
+https://github.com/alibaba/fastjson/commit/6ad50106314398c837ecf37600d7ea57f75950c0,fixed issue,fixed for issue,"diff --git a/src/main/java/com/alibaba/fastjson/util/TypeUtils.java b/src/main/java/com/alibaba/fastjson/util/TypeUtils.java
+index 74b8f672d..8cbf9f21e 100755
+--- a/src/main/java/com/alibaba/fastjson/util/TypeUtils.java
++++ b/src/main/java/com/alibaba/fastjson/util/TypeUtils.java
+@@ -867,6 +867,7 @@ public static Locale toLocale(String strVal){
+         Type rawTye = type.getRawType();
+         if(rawTye == Set.class || rawTye == HashSet.class //
+                 || rawTye == TreeSet.class //
++                || rawTye == Collection.class //
+                 || rawTye == List.class //
+                 || rawTye == ArrayList.class){
+             Type itemType = type.getActualTypeArguments()[0];
+",4,4,4
+https://github.com/alibaba/nacos/commit/e6be0f76347148f40dccefdad62e436b50579306,remove nacos test,Remove tmp directory,"diff --git a/naming/default/failover/nacos.test.4 b/naming/default/failover/nacos.test.4
+deleted file mode 100644
+index e68e914f4c..0000000000
+--- a/naming/default/failover/nacos.test.4
++++ /dev/null
+@@ -1 +0,0 @@
+-{""allIPs"":false,""cacheMillis"":1000,""checksum"":"""",""clusters"":"""",""dom"":""nacos.test.4"",""hosts"":[],""lastRefTime"":0,""valid"":true}
+\ No newline at end of file
+",2,1,2
+https://github.com/SeleniumHQ/selenium/commit/74139dd78378073c64b89bb9e6fe5696ad8ab7b4,PetSoar !,PetSoar ! not PetStore,"diff --git a/demos/petsoar/src/s-test/com/thoughtworks/selenium/petsoar/FooTestCase.java b/demos/petsoar/src/s-test/com/thoughtworks/selenium/petsoar/FooTestCase.java
+index 872bfd18ac9..e43a6efcbb4 100644
+--- a/demos/petsoar/src/s-test/com/thoughtworks/selenium/petsoar/FooTestCase.java
++++ b/demos/petsoar/src/s-test/com/thoughtworks/selenium/petsoar/FooTestCase.java
+@@ -109,7 +109,7 @@ public void testKnownPetsAreInTheInventory() {
+ 
+     private void goToFrontPage() {
+         selenium.open(""/"");
+-        selenium.verifyTextPresent(""Welcome to PetStore"");
++        selenium.verifyTextPresent(""Welcome to PetSoar!"");
+     }
+ 
+     public void testPuttingAPetInTheCartAndOutAgain() {
+",2,2,2
+https://github.com/apache/shardingsphere/commit/47178abe6c02148993978b1f615cafa54e20046b,", refactor Int2BinaryProtocolValueTest Int2BinaryProtocolValueTest execute",", refactor Int2BinaryProtocolValueTest","diff --git a/sharding-proxy-postgres/src/test/java/org/apache/shardingsphere/shardingproxy/transport/mysql/packet/command/query/binary/execute/protocol/Int2BinaryProtocolValueTest.java b/sharding-proxy-postgresql/src/test/java/org/apache/shardingsphere/shardingproxy/transport/mysql/packet/command/query/binary/execute/protocol/Int2BinaryProtocolValueTest.java
+similarity index 100%
+rename from sharding-proxy-postgres/src/test/java/org/apache/shardingsphere/shardingproxy/transport/mysql/packet/command/query/binary/execute/protocol/Int2BinaryProtocolValueTest.java
+rename to sharding-proxy-postgresql/src/test/java/org/apache/shardingsphere/shardingproxy/transport/mysql/packet/command/query/binary/execute/protocol/Int2BinaryProtocolValueTest.java
+",3,2,3
+https://github.com/apache/shardingsphere/commit/225484c4ef0f70f4b120fae98de6fa32bb813738,", refactor TimeBinaryProtocolValueTest TimeBinaryProtocolValueTest execute",", refactor TimeBinaryProtocolValueTest","diff --git a/sharding-proxy-postgres/src/test/java/org/apache/shardingsphere/shardingproxy/transport/mysql/packet/command/query/binary/execute/protocol/TimeBinaryProtocolValueTest.java b/sharding-proxy-postgresql/src/test/java/org/apache/shardingsphere/shardingproxy/transport/mysql/packet/command/query/binary/execute/protocol/TimeBinaryProtocolValueTest.java
+similarity index 100%
+rename from sharding-proxy-postgres/src/test/java/org/apache/shardingsphere/shardingproxy/transport/mysql/packet/command/query/binary/execute/protocol/TimeBinaryProtocolValueTest.java
+rename to sharding-proxy-postgresql/src/test/java/org/apache/shardingsphere/shardingproxy/transport/mysql/packet/command/query/binary/execute/protocol/TimeBinaryProtocolValueTest.java
+",3,2,3
+https://github.com/dianping/cat/commit/f7fb3650df57cdc0baef9c5151316732416418cd,fix logview bug,modifty the logview,"diff --git a/cat-home/src/main/webapp/css/logview.css b/cat-home/src/main/webapp/css/logview.css
+index 0f3aa23c7d..c6f4fc9b8e 100755
+--- a/cat-home/src/main/webapp/css/logview.css
++++ b/cat-home/src/main/webapp/css/logview.css
+@@ -39,4 +39,5 @@ tr.link td {
+ .header{
+ 	font-size: small;
+ 	white-space: nowrap;
++	color: white;
+ }
+\ No newline at end of file
+",2,1,2
+https://github.com/apache/shardingsphere/commit/2ebe1ed2112a0ef99dde4903f7299344a509a124,add configMapOrchestrationListener ( ),add setup ( ),"diff --git a/sharding-orchestration/sharding-orchestration-core/src/test/java/io/shardingsphere/orchestration/internal/config/listener/ConfigMapOrchestrationListenerTest.java b/sharding-orchestration/sharding-orchestration-core/src/test/java/io/shardingsphere/orchestration/internal/config/listener/ConfigMapOrchestrationListenerTest.java
+index 5bc9bf805f8..3cb87a2e6be 100644
+--- a/sharding-orchestration/sharding-orchestration-core/src/test/java/io/shardingsphere/orchestration/internal/config/listener/ConfigMapOrchestrationListenerTest.java
++++ b/sharding-orchestration/sharding-orchestration-core/src/test/java/io/shardingsphere/orchestration/internal/config/listener/ConfigMapOrchestrationListenerTest.java
+@@ -34,6 +34,7 @@
+     
+     @Before
+     public void setUp() {
++        configMapOrchestrationListener = new ConfigMapOrchestrationListener(""test"", regCenter);
+     }
+     
+     @Test
+",2,2,3
+https://github.com/dbeaver/dbeaver/commit/7e9c72d260125ff6b84dbbd01fe583acf9cbdcbe,Mock Data name fix,Mock data tool icon,"diff --git a/plugins/org.jkiss.dbeaver.ext.mockdata/plugin.xml b/plugins/org.jkiss.dbeaver.ext.mockdata/plugin.xml
+index dfe6b14097f..daa1e079783 100644
+--- a/plugins/org.jkiss.dbeaver.ext.mockdata/plugin.xml
++++ b/plugins/org.jkiss.dbeaver.ext.mockdata/plugin.xml
+@@ -30,6 +30,7 @@
+                     description=""Mock Data""
+                     id=""org.jkiss.dbeaver.ext.mockdata.MockDataGenerateTool""
+                     label=""%command.mockdata.name""
++                    icon=""icons/mock_data.png""
+                     singleton=""false"">
+ 
+                 <objectType name=""org.jkiss.dbeaver.model.struct.DBSDataManipulator"" forceCheck=""true""/>
+",2,2,2
+https://github.com/zxing/zxing/commit/850b88432014cd4bae0644d02d047ed44ea89434,Update rat to 0 . 11,RAT 0 . 11,"diff --git a/pom.xml b/pom.xml
+index f5ed3f0ba..390076fc9 100644
+--- a/pom.xml
++++ b/pom.xml
+@@ -391,7 +391,7 @@
+         <plugin>
+           <groupId>org.apache.rat</groupId>
+           <artifactId>apache-rat-plugin</artifactId>
+-          <version>0.10</version>
++          <version>0.11</version>
+           <configuration>
+             <excludes>
+               <exclude>**/.*</exclude>
+",3,2,3
+https://github.com/SeleniumHQ/selenium/commit/7a375e110d8b2cb57ae604f1160af0aca90fd0ea,[ py ] fix EdgeOptions,[ py ] Remove unused import,"diff --git a/py/selenium/webdriver/__init__.py b/py/selenium/webdriver/__init__.py
+index 008b29e7fff..0a844475b6e 100644
+--- a/py/selenium/webdriver/__init__.py
++++ b/py/selenium/webdriver/__init__.py
+@@ -27,7 +27,6 @@
+ from .edge.options import Options as EdgeOptions # noqa
+ from .opera.webdriver import WebDriver as Opera  # noqa
+ from .safari.webdriver import WebDriver as Safari  # noqa
+-from .phantomjs.webdriver import WebDriver as PhantomJS  # noqa
+ from .webkitgtk.webdriver import WebDriver as WebKitGTK # noqa
+ from .webkitgtk.options import Options as WebKitGTKOptions # noqa
+ from .wpewebkit.webdriver import WebDriver as WPEWebKit # noqa
+",1,0,1
+https://github.com/redisson/redisson/commit/c7d2afbaf42c423457349a23e5e8dcd3ba760fdb,RedissonRedLock . sync fixed,RedissonRedLock unlock fixed .,"diff --git a/src/main/java/org/redisson/core/RedissonRedLock.java b/src/main/java/org/redisson/core/RedissonRedLock.java
+index 195e272be..c96a84914 100644
+--- a/src/main/java/org/redisson/core/RedissonRedLock.java
++++ b/src/main/java/org/redisson/core/RedissonRedLock.java
+@@ -60,7 +60,7 @@ protected boolean sync(Map<RLock, Future<Boolean>> tryLockFutures) {
+         }
+         
+         if (lockedLocks.size() < minLocksAmount(locks)) {
+-            unlock();
++            unlockInner(lockedLocks);
+             lockedLocks.clear();
+             if (latestException != null) {
+                 throw latestException;
+",3,3,3
+https://github.com/spring-projects/spring-framework/commit/620a898e60f107afe963f9e2db9c78e54f3fd399,Fix typo in websocket ( ),Fix typo in documentation,"diff --git a/src/docs/asciidoc/web/websocket.adoc b/src/docs/asciidoc/web/websocket.adoc
+index 3a7f50df1129..b5683c7f624a 100644
+--- a/src/docs/asciidoc/web/websocket.adoc
++++ b/src/docs/asciidoc/web/websocket.adoc
+@@ -695,8 +695,8 @@ The following example shows how to do so in Java configuration:
+ [subs=""verbatim,quotes""]
+ ----
+ 	@Configuration
+-	@EnableWebSocket
+-	public class WebSocketConfig implements WebSocketConfigurer {
++	@EnableWebSocketMessageBroker
++	public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
+ 
+ 		@Override
+ 		public void registerStompEndpoints(StompEndpointRegistry registry) {
+",3,3,3
+https://github.com/eugenp/tutorials/commit/eb33074a0ee4a31c538e4523367a80a9c3c63cc6,Fix test error,Simulate false unit test,"diff --git a/spring-jenkins-pipeline/src/test/java/com/baeldung/SomeUnitTest.java b/spring-jenkins-pipeline/src/test/java/com/baeldung/SomeUnitTest.java
+index ea317ed7cd4..1e0fc985c3d 100644
+--- a/spring-jenkins-pipeline/src/test/java/com/baeldung/SomeUnitTest.java
++++ b/spring-jenkins-pipeline/src/test/java/com/baeldung/SomeUnitTest.java
+@@ -6,6 +6,6 @@
+ public class SomeUnitTest {
+     @Test
+     public void init() {
+-        assertEquals(1, 1);
++        assertEquals(1, 0);
+     }
+ }
+",2,1,1
+https://github.com/spring-projects/spring-framework/commit/e6353f0ec7d92e4174044be05ac13b14732229b2,Fix test,Fix JUnit reports location,"diff --git a/build.gradle b/build.gradle
+index fc49d9b08aba..e104287288b8 100644
+--- a/build.gradle
++++ b/build.gradle
+@@ -160,7 +160,7 @@ configure(allprojects) { project ->
+ 		// classes with the ""$"" pattern; otherwise, using -Dtest.single=MyTests to
+ 		// run MyTests by itself will fail if MyTests contains any inner classes.
+ 		exclude([""**/Abstract*.class"", '**/*$*'])
+-		reports.junitXml.destination = file(""$buildDir/test-reports"")
++		reports.junitXml.destination = file(""$buildDir/test-results"")
+ 	}
+ 
+ 	repositories {
+",2,1,2
+https://github.com/alibaba/druid/commit/fb63307be3605209a6937d6735824cd2a0364f08,bug fixed for issue,"bug fixed for SQLInListExpr , issue 1076","diff --git a/src/main/java/com/alibaba/druid/sql/ast/expr/SQLInListExpr.java b/src/main/java/com/alibaba/druid/sql/ast/expr/SQLInListExpr.java
+index c33e653b7..f00f78613 100644
+--- a/src/main/java/com/alibaba/druid/sql/ast/expr/SQLInListExpr.java
++++ b/src/main/java/com/alibaba/druid/sql/ast/expr/SQLInListExpr.java
+@@ -58,6 +58,10 @@ public SQLExpr getExpr() {
+     }
+ 
+     public void setExpr(SQLExpr expr) {
++        if (expr != null) {
++            expr.setParent(this);
++        }
++        
+         this.expr = expr;
+     }
+ 
+",3,3,3
+https://github.com/google/guava/commit/9657adb9a22190fd43ff06d2aecbfc66f1135dc3,Add @ since annotation to Enums .,Add @ since for Enums . getField .,"diff --git a/guava/src/com/google/common/base/Enums.java b/guava/src/com/google/common/base/Enums.java
+index f86c5bb441b..6105410e522 100644
+--- a/guava/src/com/google/common/base/Enums.java
++++ b/guava/src/com/google/common/base/Enums.java
+@@ -45,6 +45,8 @@ private Enums() {}
+    * For example, to get the {@code Description} annotation on the {@code GOLF}
+    * constant of enum {@code Sport}, use
+    * {@code Enums.getField(Sport.GOLF).getAnnotation(Description.class)}.
++   *
++   * @since 12.0
+    */
+   @GwtIncompatible(""reflection"")
+   public static Field getField(Enum<?> enumValue) {
+",3,2,3
+https://github.com/oracle/graal/commit/b6144f0233a75c1040e8b40ebdde097953a6daf9,add . gitignore,SDK : Add missing . gitignore,"diff --git a/sdk/.gitignore b/sdk/.gitignore
+new file mode 100644
+index 000000000000..3be8101f8a2d
+--- /dev/null
++++ b/sdk/.gitignore
+@@ -0,0 +1,2 @@
++latest_graalvm
++latest_graalvm_home
+",3,3,3
+https://github.com/spring-projects/spring-boot/commit/85eb279b30f9f6d99f5eaf83bdcd3b4bec22efdc,Add Gradle Wrapper validation,"Reintroduce "" Add Gradle Wrapper Validation GitHub Action ""","diff --git a/.github/workflows/gradle-wrapper-validation.yml b/.github/workflows/gradle-wrapper-validation.yml
+new file mode 100644
+index 000000000000..405a2b306592
+--- /dev/null
++++ b/.github/workflows/gradle-wrapper-validation.yml
+@@ -0,0 +1,10 @@
++name: ""Validate Gradle Wrapper""
++on: [push, pull_request]
++
++jobs:
++  validation:
++    name: ""Validation""
++    runs-on: ubuntu-latest
++    steps:
++      - uses: actions/checkout@v2
++      - uses: gradle/wrapper-validation-action@v1
+",3,2,3
+https://github.com/dbeaver/dbeaver/commit/95608feab7f949fb9c0426b96b4eb2a090e7794e,Perspective . BOTTOM fix,DBeaver perspective config,"diff --git a/plugins/org.jkiss.dbeaver.core/src/org/jkiss/dbeaver/ui/perspective/DBeaverPerspective.java b/plugins/org.jkiss.dbeaver.core/src/org/jkiss/dbeaver/ui/perspective/DBeaverPerspective.java
+index 5668b99d9a9..38286dea7b4 100644
+--- a/plugins/org.jkiss.dbeaver.core/src/org/jkiss/dbeaver/ui/perspective/DBeaverPerspective.java
++++ b/plugins/org.jkiss.dbeaver.core/src/org/jkiss/dbeaver/ui/perspective/DBeaverPerspective.java
+@@ -68,7 +68,7 @@ public void createInitialLayout(IPageLayout layout)
+             BOTTOM_BOTTOM_LEFT,
+             IPageLayout.BOTTOM,
+             0.7f,
+-            FOLDER_NAVIGATION);
++            editorArea);
+         bottomLeft.addView(ProjectExplorerView.VIEW_ID);
+         bottomLeft.addPlaceholder(DatabaseBrowserView.VIEW_ID);
+ 
+",1,1,1
+https://github.com/iluwatar/java-design-patterns/commit/c2baeb14e9627d804febf51b0b0905819f84ad57,added chain diagram,added chain of responsibility class diagram,"diff --git a/chain/etc/chain.jpg b/chain/etc/chain.jpg
+new file mode 100644
+index 0000000000..4253773d09
+Binary files /dev/null and b/chain/etc/chain.jpg differ
+",3,3,3
+https://github.com/eugenp/tutorials/commit/1c896ec494ec84a1565ee3c748657ec258cb215a,Update README . md ( ),Update README ( ),"diff --git a/asm/README.md b/asm/README.md
+index ff125553761..50d9c34324f 100644
+--- a/asm/README.md
++++ b/asm/README.md
+@@ -1 +1,3 @@
+-## Relevant articles:
++### Relevant Articles:
++
++- [A Guide to Java Bytecode Manipulation with ASM](http://www.baeldung.com/java-asm)
+",4,4,4
+https://github.com/PhilJay/MPAndroidChart/commit/c755ab6472b3359c248f161d0bb734c52fb76c84,Merge pull request from jasta / fix - Projects_using_MPAndroidChart,Update Projects_using_MPAndroidChart . txt,"diff --git a/Projects_using_MPAndroidChart.txt b/Projects_using_MPAndroidChart.txt
+index fb05b900d..d6adfc1da 100644
+--- a/Projects_using_MPAndroidChart.txt
++++ b/Projects_using_MPAndroidChart.txt
+@@ -26,3 +26,6 @@ https://play.google.com/store/apps/details?id=com.droidinfinity.healthplus
+ 
+ БИТ.Лидер
+ https://play.google.com/store/apps/details?id=com.firstbit.bitlider
++
++My Expenses
++https://play.google.com/store/apps/details?id=org.totschnig.myexpenses
+",1,0,0
+https://github.com/elastic/elasticsearch/commit/e991c1f7179ab46b43c69496888ba85c0c6da27b,[ DOCS ] Fix typo in date format docs,[ DOCS ] fixed typo in date - format . asciidoc,"diff --git a/docs/reference/mapping/date-format.asciidoc b/docs/reference/mapping/date-format.asciidoc
+index eada7346b6878..c2e4b6d8bbbf8 100644
+--- a/docs/reference/mapping/date-format.asciidoc
++++ b/docs/reference/mapping/date-format.asciidoc
+@@ -24,7 +24,7 @@ representation.
+ === Date Math
+ 
+ The `date` type supports using date math expression when using it in a
+-query/filter (mainly make sense in `range` query/filter).
++query/filter (mainly makes sense in `range` query/filter).
+ 
+ The expression starts with an ""anchor"" date, which can be either `now`
+ or a date string (in the applicable format) ending with `||`. It can
+",4,3,4
+https://github.com/SeleniumHQ/selenium/commit/6879463f445b2e4b90ddb0ea4a4d235da01fbc30,SimonStewart : Fixing the Capabilities,SimonStewart : Backward compatibility fix,"diff --git a/remote/common/src/java/org/openqa/selenium/remote/DesiredCapabilities.java b/remote/common/src/java/org/openqa/selenium/remote/DesiredCapabilities.java
+index 1f85aa68ba0..e72de660126 100644
+--- a/remote/common/src/java/org/openqa/selenium/remote/DesiredCapabilities.java
++++ b/remote/common/src/java/org/openqa/selenium/remote/DesiredCapabilities.java
+@@ -22,7 +22,7 @@
+ import java.util.HashMap;
+ import java.util.Map;
+ 
+-import org.openqa.selenium.Capabilities;
++import org.openqa.selenium.remote.Capabilities;
+ import org.openqa.selenium.Platform;
+ 
+ import static org.openqa.selenium.browserlaunchers.CapabilityType.BROWSER_NAME;
+",3,3,3
+https://github.com/elastic/elasticsearch/commit/0b0390aa64a2d5ba20cee24a75fa2d3fc3fbe24f,[ DOCS ] Fix typo in setup docs,[ DOCS ] Fixed typo .,"diff --git a/docs/reference/setup.asciidoc b/docs/reference/setup.asciidoc
+index e616b444dc258..164307c640c4a 100644
+--- a/docs/reference/setup.asciidoc
++++ b/docs/reference/setup.asciidoc
+@@ -1,5 +1,5 @@
+ [[setup]]
+-= Setup Elasticsearch
++= Set up Elasticsearch
+ 
+ [partintro]
+ --
+",3,3,4
+https://github.com/elastic/elasticsearch/commit/d96900fe9efebd78f30d5a2599edfac9b901b011,Mute LicensingDocumentationIT . ( ),Mute LicenseDocumentationIT # testGetLicense ( ),"diff --git a/client/rest-high-level/src/test/java/org/elasticsearch/client/documentation/LicensingDocumentationIT.java b/client/rest-high-level/src/test/java/org/elasticsearch/client/documentation/LicensingDocumentationIT.java
+index aab21fb14dfe1..7272ad12053fa 100644
+--- a/client/rest-high-level/src/test/java/org/elasticsearch/client/documentation/LicensingDocumentationIT.java
++++ b/client/rest-high-level/src/test/java/org/elasticsearch/client/documentation/LicensingDocumentationIT.java
+@@ -180,6 +180,7 @@ public void onFailure(Exception e) {
+         }
+     }
+ 
++    @AwaitsFix(bugUrl = ""https://github.com/elastic/elasticsearch/issues/43504"")
+     public void testGetLicense() throws Exception {
+         RestHighLevelClient client = highLevelClient();
+         {
+",3,3,3
+https://github.com/oracle/graal/commit/54a54fb4e6be37592da13667e5e04ac89827ebcf,updated jvmci import,Add Binary repo for jvmci,"diff --git a/mx.graal/suite.py b/mx.graal/suite.py
+index e59d71429547..76a6f6fb82df 100644
+--- a/mx.graal/suite.py
++++ b/mx.graal/suite.py
+@@ -6,9 +6,10 @@
+     ""suites"": [
+             {
+                ""name"" : ""jvmci"",
+-               ""version"" : ""a48774f9b97a37c0269dd3ce11bbe246911c0dba"",
++               ""version"" : ""9ab88ee1f79f4846a5473cff58541a50671bd8e7"",
+                ""urls"" : [
+                     {""url"" : ""https://lafo.ssw.uni-linz.ac.at/hg/graal-jvmci-8"", ""kind"" : ""hg""},
++                    {""url"" : ""http://lafo.ssw.uni-linz.ac.at/nexus/content/repositories/snapshots"", ""kind"" : ""binary""},
+                 ]
+             },
+             {
+",1,1,1
+https://github.com/oracle/graal/commit/41c5deb15a173cb5d5e4215026cbe610acebd15e,Fix typo in README . md,Fix typo .,"diff --git a/README.md b/README.md
+index 41b40b8f6a1b..daae7c241d53 100644
+--- a/README.md
++++ b/README.md
+@@ -73,7 +73,7 @@ OpenJDK 64-Bit Server VM (build 25.0-b43-internal, mixed mode)
+ % mx --vm client-nograal vm -version
+ java version ""1.7.0_25""
+ Java(TM) SE Runtime Environment (build 1.7.0_25-b15)
+-OpenJDK 64-Bit Cleint VM (build 25.0-b43-internal, mixed mode)
++OpenJDK 64-Bit Client VM (build 25.0-b43-internal, mixed mode)
+ ```
+ 
+ These configurations aim to match as closely as possible the
+",3,2,3
+https://github.com/eclipse-vertx/vert.x/commit/f714a45de00ffb88a297ab4140a25a8dcee42a40,Upgrade to Netty 4 . 0 . 8 . Final,Upgrade to netty 4 . 0 . 8 . Final,"diff --git a/gradle.properties b/gradle.properties
+index 0c4690387b6..29616f34091 100644
+--- a/gradle.properties
++++ b/gradle.properties
+@@ -26,7 +26,7 @@ group=io.vertx
+ hazelcastVersion=2.6
+ jacksonCoreVersion=2.2.2
+ jacksonDatabindVersion=2.2.2
+-nettyVersion=4.0.7.Final
++nettyVersion=4.0.8.Final
+ log4jVersion=1.2.16
+ slf4jVersion=1.6.2
+ junitVersion=4.10
+",4,4,4
+https://github.com/netty/netty/commit/cf74acfce09feff66487a8dd32da9294ffe8c4fb,Remove TODO,Remove todo in StringEncoder ( ),"diff --git a/codec/src/main/java/io/netty/handler/codec/string/StringEncoder.java b/codec/src/main/java/io/netty/handler/codec/string/StringEncoder.java
+index 9177faece1b..e249d1cf15e 100644
+--- a/codec/src/main/java/io/netty/handler/codec/string/StringEncoder.java
++++ b/codec/src/main/java/io/netty/handler/codec/string/StringEncoder.java
+@@ -51,7 +51,6 @@
+ @Sharable
+ public class StringEncoder extends MessageToMessageEncoder<CharSequence> {
+ 
+-    // TODO Use CharsetEncoder instead.
+     private final Charset charset;
+ 
+     /**
+",3,2,3
+https://github.com/dbeaver/dbeaver/commit/390531a4cd61114d7a93bb2a8828fec3b7e79d4f,Data transfer : changes fix,Transfer status fix,"diff --git a/plugins/org.jkiss.dbeaver.data.transfer/src/org/jkiss/dbeaver/tools/transfer/database/DatabaseTransferConsumer.java b/plugins/org.jkiss.dbeaver.data.transfer/src/org/jkiss/dbeaver/tools/transfer/database/DatabaseTransferConsumer.java
+index 289f9ac61ea..1ba2a473c6c 100644
+--- a/plugins/org.jkiss.dbeaver.data.transfer/src/org/jkiss/dbeaver/tools/transfer/database/DatabaseTransferConsumer.java
++++ b/plugins/org.jkiss.dbeaver.data.transfer/src/org/jkiss/dbeaver/tools/transfer/database/DatabaseTransferConsumer.java
+@@ -532,7 +532,7 @@ public String getObjectName()
+                         return targetName + "" [Alter]"";
+                     }
+                 }
+-                return targetName + "" [No changes]"";
++                return targetName;// + "" [No changes]"";
+             case skip:
+                 return ""[Skip]"";
+             default: return ""?"";
+",2,2,2
+https://github.com/libgdx/libgdx/commit/284e610db4c00dfe990c45e3fced8f13c33d823b,[ fixed ] SpriteBatch . dispose ( ) .,[ fixed ] dispose for spritebatch . ugh . . .,"diff --git a/gdx/src/com/badlogic/gdx/graphics/SpriteBatch.java b/gdx/src/com/badlogic/gdx/graphics/SpriteBatch.java
+index 0720a95eda3..ae3380d77c4 100644
+--- a/gdx/src/com/badlogic/gdx/graphics/SpriteBatch.java
++++ b/gdx/src/com/badlogic/gdx/graphics/SpriteBatch.java
+@@ -726,4 +726,14 @@ public void setBlendFunction( int srcFunc, int dstFunc )
+ 		blendSrcFunc = srcFunc;
+ 		blendDstFunc = dstFunc;
+ 	}
++	
++	/**
++	 * Disposes all resources associated with this SpriteBatch
++	 */
++	public void dispose( )
++	{
++		mesh.dispose();
++		if( shader != null )
++			shader.dispose();
++	}
+ }
+",3,2,3
+https://github.com/SeleniumHQ/selenium/commit/ad34f5bf2bafe874d9c833480be5e17b93c77fa4,DanielWagnerHall : Fixing the test .,DanielWagnerHall : Removing trailings space,"diff --git a/javascript/atoms/test/javascript_frameworks_test.html b/javascript/atoms/test/javascript_frameworks_test.html
+index 0dff761e0e4..fc1c36ffc6c 100644
+--- a/javascript/atoms/test/javascript_frameworks_test.html
++++ b/javascript/atoms/test/javascript_frameworks_test.html
+@@ -14,7 +14,6 @@
+       goog.require('bot.locators');
+       goog.require('goog.dom');
+       goog.require('goog.testing.jsunit');
+-  
+   </script>
+ 
+     <script type=""text/javascript"" src=""jquery-1.6.2.min.js""></script>
+@@ -60,4 +59,4 @@ <h3>Developers</h3>
+     </div>
+   </body>
+ 
+-</html>
+\ No newline at end of file
++</html>
+",1,1,2
+https://github.com/oracle/graal/commit/2b82cd57eaead4f5878082ee729698d21109e0b7,Update GNU import .,Fix GPLv2 license URL .,"diff --git a/mx.espresso/suite.py b/mx.espresso/suite.py
+index 402e640a86cc..94e51d52d98b 100644
+--- a/mx.espresso/suite.py
++++ b/mx.espresso/suite.py
+@@ -29,7 +29,7 @@
+     ""licenses"": {
+         ""GPLv2"": {
+             ""name"": ""GNU General Public License, version 2"",
+-            ""url"": ""http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html""
++            ""url"": ""http://www.gnu.org/licenses/old-licenses/gpl-2.0.html""
+         },
+     },
+     ""defaultLicense"": ""GPLv2"",
+",0,0,0
+https://github.com/elastic/elasticsearch/commit/e3e631eca53f2cf784da79993b63514727d523ac,[ DOCS ] Fix typo in allocation . asciidoc,Update allocation . asciidoc,"diff --git a/docs/reference/index-modules/allocation.asciidoc b/docs/reference/index-modules/allocation.asciidoc
+index 79e5d8ecdcc2c..89a5a151fd440 100644
+--- a/docs/reference/index-modules/allocation.asciidoc
++++ b/docs/reference/index-modules/allocation.asciidoc
+@@ -99,7 +99,7 @@ settings API.
+ [[disk]]
+ === Disk-based Shard Allocation
+ 
+-Elasticsearch con be configured to prevent shard
++Elasticsearch can be configured to prevent shard
+ allocation on nodes depending on disk usage for the node. This
+ functionality is disabled by default, and can be changed either in the
+ configuration file, or dynamically using:
+",3,2,3
+https://github.com/elastic/elasticsearch/commit/f420018bb299698a8c80cf2dcc9be11bb3950ace,[ Monitoring ] Fix test case for test ( ),EQL : Fix async EQL Rest test ( ),"diff --git a/x-pack/plugin/eql/qa/rest/src/test/resources/rest-api-spec/test/eql/10_basic.yml b/x-pack/plugin/eql/qa/rest/src/test/resources/rest-api-spec/test/eql/10_basic.yml
+index ef233b286a881..3a9ce905d71c1 100644
+--- a/x-pack/plugin/eql/qa/rest/src/test/resources/rest-api-spec/test/eql/10_basic.yml
++++ b/x-pack/plugin/eql/qa/rest/src/test/resources/rest-api-spec/test/eql/10_basic.yml
+@@ -32,11 +32,10 @@ setup:
+       eql.search:
+         index: eql_test
+         wait_for_completion_timeout: ""0ms""
++        keep_on_completion: true
+         body:
+           query: ""process where user = 'SYSTEM'""
+ 
+-  - match: {is_running: true}
+-  - match: {is_partial: true}
+   - is_true: id
+   - set: {id: id}
+ 
+",2,2,2
+https://github.com/SeleniumHQ/selenium/commit/cbc2f3c9bdbb6bd4eac9e80cf527332f578f4d3c,SimonStewart : Fixing the build build .,SimonStewart : Officially target Java6 .,"diff --git a/rake-tasks/crazy_fun/mappings/java.rb b/rake-tasks/crazy_fun/mappings/java.rb
+index c0f61ce1482..65b0462c265 100644
+--- a/rake-tasks/crazy_fun/mappings/java.rb
++++ b/rake-tasks/crazy_fun/mappings/java.rb
+@@ -312,8 +312,8 @@ def handle(fun, dir, args)
+             :optimize             => true,
+             :debug                => true,
+             :nowarn               => true,
+-            :source               => '1.5',
+-            :target               => '1.5'
++            :source               => '1.6',
++            :target               => '1.6'
+           ) { |ant|
+             ant.classpath(:refid => ""#{args[:name]}.path"")
+ 
+",1,1,1
+https://github.com/spring-projects/spring-boot/commit/85f45adb9a8d0662a2fc992ab03c3cbb9c442d78,Upgrade to plexus - utils 3 . 0 . 24,Upgrade to Plexus Utils 3 . 0 . 24,"diff --git a/spring-boot-parent/pom.xml b/spring-boot-parent/pom.xml
+index d657eafb922f..c7356a2bc157 100644
+--- a/spring-boot-parent/pom.xml
++++ b/spring-boot-parent/pom.xml
+@@ -171,7 +171,7 @@
+ 			<dependency>
+ 				<groupId>org.codehaus.plexus</groupId>
+ 				<artifactId>plexus-utils</artifactId>
+-				<version>3.0.20</version>
++				<version>3.0.24</version>
+ 			</dependency>
+ 			<dependency>
+ 				<groupId>org.eclipse.aether</groupId>
+",4,4,4
+https://github.com/spring-projects/spring-boot/commit/b242543545318f709bd99e4b6e4771ec572d27fb,Add missing RestFB,Backport missing 3rd party starter reference,"diff --git a/spring-boot-starters/README.adoc b/spring-boot-starters/README.adoc
+index 199e0fc2239a..20b8c2af98f5 100644
+--- a/spring-boot-starters/README.adoc
++++ b/spring-boot-starters/README.adoc
+@@ -112,6 +112,9 @@ do as they were designed before this was clarified.
+ | http://infinispan.org/[Infinispan]
+ | https://github.com/infinispan/infinispan-spring-boot
+ 
++| http://restfb.com/[RestFB] Messenger
++| https://github.com/marsbits/restfbmessenger
++
+ | http://square.github.io/okhttp/[OkHttp]
+ | https://github.com/freefair/okhttp-spring-boot
+ 
+",1,1,1
+https://github.com/netty/netty/commit/fa277eda200228dbef1de9317184a6dc8b1945a6,Fix a bug in SnappyFramedEncoderTest,Fix reported leaks,"diff --git a/codec/src/test/java/io/netty/handler/codec/compression/SnappyFramedEncoderTest.java b/codec/src/test/java/io/netty/handler/codec/compression/SnappyFramedEncoderTest.java
+index 7dfde03d91f..52edb9a67ba 100644
+--- a/codec/src/test/java/io/netty/handler/codec/compression/SnappyFramedEncoderTest.java
++++ b/codec/src/test/java/io/netty/handler/codec/compression/SnappyFramedEncoderTest.java
+@@ -142,5 +142,7 @@ public void testInputBufferOverseek() throws Exception {
+ 
+         channel.writeOutbound(in);
+         assertTrue(channel.finish());
++        ByteBuf out = (ByteBuf) channel.readOutbound();
++        out.release();
+     }
+ }
+",2,1,2
+https://github.com/dbeaver/dbeaver/commit/2b8637d029522cfaaca9deb81ea4e8bf5121ec69,QM : null type fix,NPE fix,"diff --git a/plugins/org.jkiss.dbeaver.model/src/org/jkiss/dbeaver/model/impl/AbstractObjectCache.java b/plugins/org.jkiss.dbeaver.model/src/org/jkiss/dbeaver/model/impl/AbstractObjectCache.java
+index 30d3c916558..b9a372c18a9 100644
+--- a/plugins/org.jkiss.dbeaver.model/src/org/jkiss/dbeaver/model/impl/AbstractObjectCache.java
++++ b/plugins/org.jkiss.dbeaver.model/src/org/jkiss/dbeaver/model/impl/AbstractObjectCache.java
+@@ -251,6 +251,9 @@ protected String getObjectName(@NotNull OBJECT object) {
+         } else {
+             name = object.getName();
+         }
++        if (name == null) {
++            return null;
++        }
+         if (!caseSensitive) {
+             return name.toUpperCase();
+         }
+",2,1,2
+https://github.com/square/retrofit/commit/d7da1cdc2406b88aae75ebfeaca93bbf3c94d505,Rename setServer to setServer .,Retain old parameter type .,"diff --git a/retrofit/src/main/java/retrofit/RestAdapter.java b/retrofit/src/main/java/retrofit/RestAdapter.java
+index 3d862a1dd..43186e434 100644
+--- a/retrofit/src/main/java/retrofit/RestAdapter.java
++++ b/retrofit/src/main/java/retrofit/RestAdapter.java
+@@ -584,7 +584,7 @@ public Builder setServer(String server) {
+      * @deprecated Use {@link #setEndpoint(String)} or {@link #setEndpoint(Endpoint)}.
+      */
+     @Deprecated
+-    public Builder setServer(Endpoint server) {
++    public Builder setServer(Server server) {
+       return setEndpoint(server);
+     }
+ 
+",0,0,0
+https://github.com/Netflix/Hystrix/commit/569eed99a78fca3925c0ee75a2d4e06d5a304ac9,[ Gradle Release Plugin ] - pre tag commit : ' 1 . 3 . 0 - SNAPSHOT ' .,1 . 3 . 0 - SNAPSHOT,"diff --git a/gradle.properties b/gradle.properties
+index ee025728..fe820f82 100644
+--- a/gradle.properties
++++ b/gradle.properties
+@@ -1 +1 @@
+-version=1.3.0.RC3-SNAPSHOT
++version=1.3.0-SNAPSHOT
+",2,2,3
+https://github.com/bazelbuild/bazel/commit/c89a8ac80d1d8c3791b1777c14b31af7bbd1df52,Fix typo in cpp . md,Fix target label .,"diff --git a/site/docs/tutorial/cpp.md b/site/docs/tutorial/cpp.md
+index 3a599df7602b..32ac4f6a86fc 100644
+--- a/site/docs/tutorial/cpp.md
++++ b/site/docs/tutorial/cpp.md
+@@ -136,7 +136,7 @@ dependencies.
+ 
+ The attributes in the target explicitly state its dependencies and options.
+ While the `name` attribute is mandatory, many are optional. For example, in the
+-`hello-greet` target, `name` is self-explanatory, and `srcs` specifies the
++`hello-world` target, `name` is self-explanatory, and `srcs` specifies the
+ source file(s) from which Bazel builds the target.
+ 
+ ### Build the project
+",2,1,2
+https://github.com/bazelbuild/bazel/commit/af76330a372babdf40c016e1fde8a9911b139e8b,Fix visibility of visibility in go,Use default_visibility instead of visibility in package ( ),"diff --git a/tools/build_rules/go/BUILD b/tools/build_rules/go/BUILD
+index 917ca91a7516..67cb1e21da12 100644
+--- a/tools/build_rules/go/BUILD
++++ b/tools/build_rules/go/BUILD
+@@ -1,3 +1,3 @@
+ package(
+-    visibility = [""//visibility:public""],
++    default_visibility = [""//visibility:public""],
+ )
+",1,2,2
+https://github.com/bazelbuild/bazel/commit/8afa8b37e8de0613b408d04643f0956e1ec75413,Add bazel ( ) to WORKSPACE,Give a name to the Bazel workspace,"diff --git a/WORKSPACE b/WORKSPACE
+index 9583ae8c29f0..cd2e95bbe64a 100644
+--- a/WORKSPACE
++++ b/WORKSPACE
+@@ -1 +1 @@
+-# bind statements go here. TODO(bazel-team): document this.
++workspace(name = ""bazel"")
+",2,1,2
+https://github.com/elastic/elasticsearch/commit/91a38b8fe0cf824356799507fbfc1826234edf44,[ DOCS ] EQL : Update ODBC ODBC docs ( ),[ DOCS ] Fixed bad cross doc link .,"diff --git a/docs/reference/sql/index.asciidoc b/docs/reference/sql/index.asciidoc
+index 5bf1561c8102b..65e5313de4ac6 100644
+--- a/docs/reference/sql/index.asciidoc
++++ b/docs/reference/sql/index.asciidoc
+@@ -36,7 +36,7 @@ indices and return results in tabular format.
+     SQL and print tabular results.
+ <<sql-jdbc,JDBC>>::
+     A JDBC driver for {es}.
+-{sql-odbc}/odbc.html[ODBC]::
++{sql-odbc}[ODBC]::
+     An ODBC driver for {es}.
+ <<sql-client-apps,Client Applications>>::
+     Documentation for configuring various SQL/BI tools with {es-sql}.
+",1,1,1
+https://github.com/jenkinsci/jenkins/commit/927cd7f896c55f17b6cb41754a4eacaffddec93f,Merge pull request from oleg - nenashev / script / 1 . 65,Update script - security to 1 . 65,"diff --git a/war/pom.xml b/war/pom.xml
+index 85adfcc4b979..720d5b9339cf 100644
+--- a/war/pom.xml
++++ b/war/pom.xml
+@@ -405,7 +405,7 @@ THE SOFTWARE.
+                 <artifactItem>
+                   <groupId>org.jenkins-ci.plugins</groupId>
+                   <artifactId>script-security</artifactId>
+-                  <version>1.63</version>
++                  <version>1.65</version>
+                   <type>hpi</type>
+                 </artifactItem>
+                 <artifactItem>
+",1,1,1
+https://github.com/SeleniumHQ/selenium/commit/4713f55a29d2ca6ae2ad4b90e1e6253bd5075a12,[ grid ] Fixing a bug in the DriverServiceSessionFactory stop,[ grid ] Stop driver server when session is over . Fixes,"diff --git a/java/server/src/org/openqa/selenium/grid/node/config/DriverServiceSessionFactory.java b/java/server/src/org/openqa/selenium/grid/node/config/DriverServiceSessionFactory.java
+index 0bdf7284e8a..fb28a1cfcf6 100644
+--- a/java/server/src/org/openqa/selenium/grid/node/config/DriverServiceSessionFactory.java
++++ b/java/server/src/org/openqa/selenium/grid/node/config/DriverServiceSessionFactory.java
+@@ -99,7 +99,7 @@ public boolean test(Capabilities capabilities) {
+               new ImmutableCapabilities((Map<?, ?>)response.getValue())) {
+             @Override
+             public void stop() {
+-              // no-op
++              service.stop();
+             }
+           });
+     } catch (Exception e) {
+",1,1,2
+https://github.com/libgdx/libgdx/commit/e13d9466776c37486ca914ff503eabc35136c6ea,[ fixed ] Mesh . setVertices ( ) .,[ fixed ] Bug in Mesh . setIndices ( ) . had to clear buffer first .,"diff --git a/gdx/src/com/badlogic/gdx/graphics/Mesh.java b/gdx/src/com/badlogic/gdx/graphics/Mesh.java
+index 764d7b436a..40051c4c24 100644
+--- a/gdx/src/com/badlogic/gdx/graphics/Mesh.java
++++ b/gdx/src/com/badlogic/gdx/graphics/Mesh.java
+@@ -393,6 +393,7 @@ public void setVertices (int[] vertices, int offset, int count) {
+ 	 * @param indices the indices
+ 	 */
+ 	public void setIndices (short[] indices) {
++		this.indices.clear();
+ 		this.indices.put(indices);
+ 		this.indices.limit(indices.length);
+ 		this.indices.position(0);
+",1,1,2
+https://github.com/elastic/elasticsearch/commit/2e5e4e1a69032c756e5be27f32d302cbb556a804,Add build to build CI,Switch to parametric CI jobs ( ),"diff --git a/.ci/java-versions.properties b/.ci/java-versions.properties
+index 9202be97bd93b..c902a69207108 100644
+--- a/.ci/java-versions.properties
++++ b/.ci/java-versions.properties
+@@ -6,3 +6,5 @@
+ 
+ ES_BUILD_JAVA=java11
+ ES_RUNTIME_JAVA=java8
++GRADLE_TASK=build
++
+",1,1,1
+https://github.com/elastic/elasticsearch/commit/4d4f979d61dfdbb7979484b9682f9eada185f8a7,Remove unused license from plugin,Remove debugging println from API JAR task,"diff --git a/plugin/core/build.gradle b/plugin/core/build.gradle
+index 8f1355b234e10..5e14e72534f66 100644
+--- a/plugin/core/build.gradle
++++ b/plugin/core/build.gradle
+@@ -107,7 +107,6 @@ project.afterEvaluate {
+         doFirst {
+             Path jarFile = project.jar.outputs.files.singleFile.toPath()
+             String apiFileName = jarFile.fileName.toString().replace(""core-${project.version}"", ""api-${project.version}"")
+-            println apiFileName
+             Files.copy(jarFile, jarFile.resolveSibling(apiFileName), StandardCopyOption.REPLACE_EXISTING)
+ 
+             String pomFileName = jarFile.fileName.toString().replace('.jar', '.pom')
+",2,1,2
+https://github.com/oracle/graal/commit/caa8d816f0273787606c11b41171a5a812a7fe0d,Fix error message in args,Fix git log check start date,"diff --git a/mx.sulong/mx_sulong.py b/mx.sulong/mx_sulong.py
+index 558db5a6cac9..f4006679deb2 100644
+--- a/mx.sulong/mx_sulong.py
++++ b/mx.sulong/mx_sulong.py
+@@ -625,7 +625,7 @@ def standardLinkerCommands(args=None):
+ 
+ def logCheck(args=None):
+     error = False
+-    output = subprocess.check_output(['git', 'log', '--pretty=format:""%s""', '--since=""2016-04-07""'])
++    output = subprocess.check_output(['git', 'log', '--pretty=format:""%s""', '--after=""2016-04-08""'])
+     for s in output.splitlines():
+         withoutQuotes = s[1:-1]
+         if withoutQuotes[0].islower():
+",2,1,1
+https://github.com/apache/flink/commit/973ce7d0eb219ea84ad6b7fd0d063f595485205f,[ FLINK - 10366 ] [ batch ] Add json dependency to flink - hcatalog - connectors,[ FLINK - 5050 ] [ build ] Remove transitive JSON . org dependency,"diff --git a/flink-batch-connectors/flink-hcatalog/pom.xml b/flink-batch-connectors/flink-hcatalog/pom.xml
+index 444bd9acb081..6889e5a3fa90 100644
+--- a/flink-batch-connectors/flink-hcatalog/pom.xml
++++ b/flink-batch-connectors/flink-hcatalog/pom.xml
+@@ -52,6 +52,12 @@ under the License.
+ 			<groupId>org.apache.hive.hcatalog</groupId>
+ 			<artifactId>hcatalog-core</artifactId>
+ 			<version>0.12.0</version>
++			<exclusions>
++				<exclusion>
++					<groupId>org.json</groupId>
++					<artifactId>json</artifactId>
++				</exclusion>
++			</exclusions>
+ 		</dependency>
+ 
+ 		<dependency>
+",2,2,2
+https://github.com/elastic/elasticsearch/commit/1b996defcf6d73ee33118495f1a68c452b38b2a4,[ TEST ] Fix cat . allocation . allocation . allocation,[ TEST ] cat . allocation / One index : allow leading spaces in unassigned shards lines,"diff --git a/rest-api-spec/test/cat.allocation/10_basic.yaml b/rest-api-spec/test/cat.allocation/10_basic.yaml
+index 83b5cc5974f2a..83d14f167592c 100755
+--- a/rest-api-spec/test/cat.allocation/10_basic.yaml
++++ b/rest-api-spec/test/cat.allocation/10_basic.yaml
+@@ -67,6 +67,7 @@
+                 \n
+               )+
+               (
++                \s*                          #allow leading spaces to account for right-justified text
+                 \d+                    \s+
+                 UNASSIGNED             \s+
+                 \n
+",2,2,2
+https://github.com/apache/shardingsphere/commit/5b5309c793a4bdb2623fa5dd3987b9ac83a34930,for : remove useless test case,remove blank line .,"diff --git a/sharding-jdbc/src/test/java/io/shardingsphere/dbtest/engine/dql/AllDQLTests.java b/sharding-jdbc/src/test/java/io/shardingsphere/dbtest/engine/dql/AllDQLTests.java
+index 4349ec70280..d54902055c2 100644
+--- a/sharding-jdbc/src/test/java/io/shardingsphere/dbtest/engine/dql/AllDQLTests.java
++++ b/sharding-jdbc/src/test/java/io/shardingsphere/dbtest/engine/dql/AllDQLTests.java
+@@ -27,4 +27,4 @@
+         AdditionalDQLIntegrateTest.class
+     })
+ public class AllDQLTests {
+-}
++}
+\ No newline at end of file
+",2,1,2
+https://github.com/apache/shardingsphere/commit/4b5be223c154c7a6ad3c1b4c39a46f6e573e7621,add runtime - connector - java,add mysql dependency,"diff --git a/sharding-proxy/sharding-proxy-bootstrap/pom.xml b/sharding-proxy/sharding-proxy-bootstrap/pom.xml
+index 73f404ca40c..f4bf705433d 100644
+--- a/sharding-proxy/sharding-proxy-bootstrap/pom.xml
++++ b/sharding-proxy/sharding-proxy-bootstrap/pom.xml
+@@ -92,6 +92,7 @@
+         <dependency>
+             <groupId>mysql</groupId>
+             <artifactId>mysql-connector-java</artifactId>
++            <scope>runtime</scope>
+         </dependency>
+         
+         <dependency>
+",2,1,1
+https://github.com/oracle/graal/commit/639d131865baf583d5e1f95ac9a014e4e0625662,[ ci ] fix overlay build,Update overlay revision .,"diff --git a/graal-common.json b/graal-common.json
+index 5bbb0d72dcc2..a246485de8fc 100644
+--- a/graal-common.json
++++ b/graal-common.json
+@@ -2,6 +2,6 @@
+   ""README"": ""This file contains definitions that are useful for the hocon and jsonnet CI files of the graal and graal-enterprise repositories."",
+ 
+   ""ci"": {
+-    ""overlay"": ""c48d42b13ed07d9bc45ea8cd4d6d6f85c9ff2370""
++    ""overlay"": ""ef8dc97e920673ceab6b3e5992eb5e6c35edd5af""
+   }
+ }
+",1,1,1
+https://github.com/dbeaver/dbeaver/commit/e8d3f0cc88d62d7c6f69f0d2d26347ffc6de4ff3,SQL editor fix ( fix ),RS close fix,"diff --git a/plugins/org.jkiss.dbeaver.model/src/org/jkiss/dbeaver/model/impl/jdbc/exec/JDBCResultSetImpl.java b/plugins/org.jkiss.dbeaver.model/src/org/jkiss/dbeaver/model/impl/jdbc/exec/JDBCResultSetImpl.java
+index 773b6418d62..14646d274cb 100644
+--- a/plugins/org.jkiss.dbeaver.model/src/org/jkiss/dbeaver/model/impl/jdbc/exec/JDBCResultSetImpl.java
++++ b/plugins/org.jkiss.dbeaver.model/src/org/jkiss/dbeaver/model/impl/jdbc/exec/JDBCResultSetImpl.java
+@@ -320,7 +320,7 @@ public void close()
+                 log.error(""Can't close result set"", e);
+             }
+         }
+-        if (fake) {
++        if (fake && statement != null) {
+             statement.close();
+         }
+     }
+",1,1,1
+https://github.com/spring-projects/spring-boot/commit/1739bfe0770f84d409e07d134d546dbb718f2da1,Add Spring Integration metrics to docs,Add missing title,"diff --git a/spring-boot-project/spring-boot-docs/src/main/asciidoc/production-ready-features.adoc b/spring-boot-project/spring-boot-docs/src/main/asciidoc/production-ready-features.adoc
+index 096815d45d46..b8e978d58494 100644
+--- a/spring-boot-project/spring-boot-docs/src/main/asciidoc/production-ready-features.adoc
++++ b/spring-boot-project/spring-boot-docs/src/main/asciidoc/production-ready-features.adoc
+@@ -961,6 +961,7 @@ the following:
+ 
+ 
+ [[production-ready-metrics-integration]]
++=== Spring Integration metrics
+ Auto-configuration will enable binding of a number of Spring Integration-related
+ metrics:
+ 
+",2,1,2
+https://github.com/oracle/graal/commit/f644f74eef65508161ab396a41b172428bae7a68,Add benchmark for benchmark tests .,Add memory benchmarks to BenchTest task,"diff --git a/wasm/mx.wasm/mx_wasm.py b/wasm/mx.wasm/mx_wasm.py
+index d607d6b02e36..ce9cfeb6513e 100644
+--- a/wasm/mx.wasm/mx_wasm.py
++++ b/wasm/mx.wasm/mx_wasm.py
+@@ -108,6 +108,13 @@ def graal_wasm_gate_runner(args, tasks):
+                 if exitcode != 0:
+                     mx.abort(""Errors during benchmark tests, aborting."")
+ 
++            # Memory benchmarks
++            exitcode = mx_benchmark.benchmark([
++                ""memory"", ""--"",
++                ""--jvm"", ""server"", ""--jvm-config"", ""graal-core""])
++            if exitcode != 0:
++                mx.abort(""Errors during benchmark tests, aborting."")
++
+ 
+ add_gate_runner(_suite, graal_wasm_gate_runner)
+ 
+",3,3,3
+https://github.com/jenkinsci/jenkins/commit/fe21d5c1414da04ba92344665f339889be3cb3dd,[ FIXED HUDSON - 21394 ],fixed a horrible horrible memory leak .,"diff --git a/remoting/src/main/java/hudson/remoting/Response.java b/remoting/src/main/java/hudson/remoting/Response.java
+index 4f5dba3e371b..4bb882ffa7db 100644
+--- a/remoting/src/main/java/hudson/remoting/Response.java
++++ b/remoting/src/main/java/hudson/remoting/Response.java
+@@ -38,6 +38,7 @@ protected void execute(Channel channel) {
+         if(req==null)
+             return; // maybe aborted
+         req.onCompleted(this);
++        channel.pendingCalls.remove(id);
+     }
+ 
+     public String toString() {
+",2,1,2
+https://github.com/libgdx/libgdx/commit/a6dc032dc382de741a6f35f76bd53b8a24059a0f,[ fixed ] ScaledNumericValue # ScaledNumericValue .,Fixed IndependentScaledNumericValue .,"diff --git a/gdx/src/com/badlogic/gdx/graphics/g2d/ParticleEmitter.java b/gdx/src/com/badlogic/gdx/graphics/g2d/ParticleEmitter.java
+index 1f18aca36a..40a5ef0c4b 100644
+--- a/gdx/src/com/badlogic/gdx/graphics/g2d/ParticleEmitter.java
++++ b/gdx/src/com/badlogic/gdx/graphics/g2d/ParticleEmitter.java
+@@ -1528,7 +1528,7 @@ public void set (ScaledNumericValue value) {
+ 
+ 		public void set (IndependentScaledNumericValue value) {
+ 			super.set(value);
+-			value.independent = independent;
++			independent = value.independent;
+ 		}
+ 
+ 		public void save (Writer output) throws IOException {
+",2,2,3
+https://github.com/elastic/elasticsearch/commit/b08ba28c9b0708811e168394b6e2852f1492f58e,[ DOCS ] Fix typo in intervals query docs,[ Docs ] Remove boost parameter from intervals - query example ( ),"diff --git a/docs/reference/query-dsl/intervals-query.asciidoc b/docs/reference/query-dsl/intervals-query.asciidoc
+index f5788783f7e63..3049cb363173a 100644
+--- a/docs/reference/query-dsl/intervals-query.asciidoc
++++ b/docs/reference/query-dsl/intervals-query.asciidoc
+@@ -40,7 +40,6 @@ POST _search
+             }
+           ]
+         },
+-        ""boost"" : 2.0,
+         ""_name"" : ""favourite_food""
+       }
+     }
+@@ -298,4 +297,4 @@ POST _search
+   }
+ }
+ --------------------------------------------------
+-// CONSOLE
+\ No newline at end of file
++// CONSOLE
+",1,1,1
+https://github.com/spring-projects/spring-boot/commit/2747c01e8120fe02fcf7f928ec84104e8cb654ad,Fix broken link to github - tag,Set correct github tag for generated docs,"diff --git a/spring-boot-docs/pom.xml b/spring-boot-docs/pom.xml
+index b6df30060f74..4d0c23f30f6a 100644
+--- a/spring-boot-docs/pom.xml
++++ b/spring-boot-docs/pom.xml
+@@ -284,7 +284,7 @@
+ 										<stringutil string=""${version-type}"" property=""spring-boot-repo"">
+ 											<lowercase />
+ 										</stringutil>
+-										<var name=""github-tag"" value=""v1.0.0.RELEASE"" />
++										<var name=""github-tag"" value=""v${project.version}"" />
+ 										<propertyregex property=""github-tag"" override=""true""
+ 											input=""${github-tag}"" regexp="".*SNAPSHOT"" replace=""master"" />
+ 									</target>
+",1,1,1
+https://github.com/jenkinsci/jenkins/commit/8011e2e2d6dd4aa2b18e05cfe6e823d27284f46e,fixed a typo in the BuildTrigger .,fixed typo,"diff --git a/core/src/main/java/hudson/tasks/BuildTrigger.java b/core/src/main/java/hudson/tasks/BuildTrigger.java
+index f786ee2e0b0e..bc3ca5e07324 100644
+--- a/core/src/main/java/hudson/tasks/BuildTrigger.java
++++ b/core/src/main/java/hudson/tasks/BuildTrigger.java
+@@ -88,7 +88,7 @@ public boolean perform(Build build, Launcher launcher, BuildListener listener) {
+             PrintStream logger = listener.getLogger();
+             for (AbstractProject p : getChildProjects()) {
+                 if(p.isDisabled()) {
+-                    logger.println(p.getName()+"" is disabled. Triggering skiiped"");
++                    logger.println(p.getName()+"" is disabled. Triggering skipped"");
+                     continue;
+                 }
+ 
+",3,2,3
+https://github.com/SeleniumHQ/selenium/commit/3ae50b5fe8e70886a59f5d1748b42629a1e8e59b,MichaelTamm : remove selenium - htmlunit - driver from java - htmlunit - driver,"removing htmlunit driver from java pom file , it ' s external now","diff --git a/maven/java/pom.xml b/maven/java/pom.xml
+index dea66f0c34a..5a928c42a0d 100644
+--- a/maven/java/pom.xml
++++ b/maven/java/pom.xml
+@@ -22,11 +22,6 @@
+             <artifactId>selenium-edge-driver</artifactId>
+             <version>${project.version}</version>
+         </dependency>
+-        <dependency>
+-            <groupId>org.seleniumhq.selenium</groupId>
+-            <artifactId>selenium-htmlunit-driver</artifactId>
+-            <version>${project.version}</version>
+-        </dependency>
+         <dependency>
+             <groupId>org.seleniumhq.selenium</groupId>
+             <artifactId>selenium-firefox-driver</artifactId>
+",2,2,3
+https://github.com/signalapp/Signal-Android/commit/c81bc229437ccb37dd1d9db5b789654c9e982daf,Fix crash in message message .,Fix avatar location in a group conversation .,"diff --git a/res/layout/conversation_item_received.xml b/res/layout/conversation_item_received.xml
+index 5a34a664865..2cf0cd763b8 100644
+--- a/res/layout/conversation_item_received.xml
++++ b/res/layout/conversation_item_received.xml
+@@ -38,7 +38,6 @@
+                 android:foreground=""@drawable/contact_photo_background""
+                 android:layout_width=""36dp""
+                 android:layout_height=""36dp""
+-                android:layout_marginBottom=""6dp""
+                 android:cropToPadding=""true""
+                 android:contentDescription=""@string/conversation_item_received__contact_photo_description"" />
+ 
+",2,1,2
+https://github.com/jenkinsci/jenkins/commit/1908a88bfdc2b976b5ea99687360a364e5050c43,[ JENKINS - 8905 ] - Update changelog for JENKINS - 8905,[ FIXED JENKINS - 8892 ] update changelog,"diff --git a/changelog.html b/changelog.html
+index c32f6d5ef0fa..b02f3a4ef9da 100644
+--- a/changelog.html
++++ b/changelog.html
+@@ -69,6 +69,9 @@
+     (<a href=""http://issues.jenkins-ci.org/browse/JENKINS-8892"">issue 8892</a>)    
+   <li class=rfe>
+     Exposing more key variables to the Groovy CLI command.
++  <li class=rfe>
++    Allow classworlds.conf to be externally configured for M3 builds
++    (<a href=""http://issues.jenkins-ci.org/browse/JENKINS-8905"">issue 8905</a>)    
+ </ul>
+ </div><!--=TRUNK-END=-->
+ 
+",3,2,3
+https://github.com/oracle/graal/commit/427dbbd7ef1efcd1a405771e61e329ea694ea854,Add GCC test for float2i32bit i32 . 0,Add testcase for float to i32 bitcast,"diff --git a/projects/com.oracle.truffle.llvm.test/tests/llvmir/micro/cast/float2i32bit.ll b/projects/com.oracle.truffle.llvm.test/tests/llvmir/micro/cast/float2i32bit.ll
+new file mode 100644
+index 000000000000..f90a28a49b56
+--- /dev/null
++++ b/projects/com.oracle.truffle.llvm.test/tests/llvmir/micro/cast/float2i32bit.ll
+@@ -0,0 +1,5 @@
++define i1 @main() {
++	%1 = bitcast float 1048575.0 to i32
++	%2 = icmp eq i32 %1, 1233125360
++	ret i1 %2
++}
+",2,2,2
+https://github.com/apache/flink/commit/499790c1ff614da5cf2dfd2e742e33de7ec4145b,[ hotfix ] [ tests ] Fix typo in log4j - test . properties,[ tests ] Revert accidentally committed log level change for tests,"diff --git a/flink-tests/src/test/resources/log4j-test.properties b/flink-tests/src/test/resources/log4j-test.properties
+index 0845c812e0cb..85897b37b499 100644
+--- a/flink-tests/src/test/resources/log4j-test.properties
++++ b/flink-tests/src/test/resources/log4j-test.properties
+@@ -18,7 +18,7 @@
+ 
+ # Set root logger level to OFF to not flood build logs
+ # set manually to INFO for debugging purposes
+-log4j.rootLogger=INFO, testlogger
++log4j.rootLogger=OFF, testlogger
+ 
+ # A1 is set to be a ConsoleAppender.
+ log4j.appender.testlogger=org.apache.log4j.ConsoleAppender
+",1,1,1
+https://github.com/apache/flink/commit/82542d68edd5999cd7cd8330bb7a3b19852b8eb6,[ ci ] [ travis ] Add gem install - - - - version,"[ travis ] Fix some ruby dependencies for travis , see","diff --git a/.travis.yml b/.travis.yml
+index cf4f947d33a9..5160cdb39f50 100644
+--- a/.travis.yml
++++ b/.travis.yml
+@@ -19,6 +19,7 @@ env:
+         - PROFILE=""-Dhadoop.profile=2""
+ 
+ before_script:
++   - ""gem install --version 0.8.9 faraday""
+    - ""gem install travis-artifacts & ""
+ 
+ 
+",1,1,1
+https://github.com/elastic/elasticsearch/commit/fb64c18ac641cd14787478844e4d8953ef4bcd4f,[ DOCS ] Fix typo in termvectors . asciidoc,[ DOCS ] Update term vectors snippet to prevent CI failure ( ),"diff --git a/docs/reference/docs/termvectors.asciidoc b/docs/reference/docs/termvectors.asciidoc
+index abd8fc6de0960..6d999d5b49737 100644
+--- a/docs/reference/docs/termvectors.asciidoc
++++ b/docs/reference/docs/termvectors.asciidoc
+@@ -216,7 +216,7 @@ PUT /twitter/_doc/1
+   ""text"" : ""twitter test test test ""
+ }
+ 
+-PUT /twitter/_doc/2
++PUT /twitter/_doc/2?refresh=wait_for
+ {
+   ""fullname"" : ""Jane Doe"",
+   ""text"" : ""Another twitter test ...""
+",1,1,1
+https://github.com/SeleniumHQ/selenium/commit/cdb73f565626af524739851ba402839c74fd7eb2,SimonStewart : Fixing a typo in the formPage page,SimonStewart : Green bar with HtmlUnit .,"diff --git a/common/src/web/formPage.html b/common/src/web/formPage.html
+index 44b428ca491..dc98f956457 100644
+--- a/common/src/web/formPage.html
++++ b/common/src/web/formPage.html
+@@ -4,7 +4,7 @@
+ 
+     <script type=""text/javascript"">
+         function changePage() {
+-            var newLocation = '/page/3';
++            var newLocation = '/common/page/3';
+             window.location = newLocation;
+         }
+     </script>
+",1,1,1
+https://github.com/jenkinsci/jenkins/commit/520000d020f3a650e427cb79c6279653d77e2f12,Merge pull request from oleg - nenashev / maven / 1 . 42,upgrade maven - antrun - extended - plugin 1 . 39 - > 1 . 42,"diff --git a/pom.xml b/pom.xml
+index 53b0024cce75..e036ffe8addc 100644
+--- a/pom.xml
++++ b/pom.xml
+@@ -84,7 +84,7 @@ THE SOFTWARE.
+         <plugin>
+           <groupId>org.jvnet.maven-antrun-extended-plugin</groupId>
+           <artifactId>maven-antrun-extended-plugin</artifactId>
+-          <version>1.39</version>
++          <version>1.42</version>
+         </plugin>
+         <plugin>
+           <groupId>org.apache.maven.plugins</groupId>
+",1,1,1
+https://github.com/SeleniumHQ/selenium/commit/6ba161729224c1dbd3a0cd6a2154b7f62955ea48,[ py ] fix binary capabilities,py : use dict getter to retrieve binary,"diff --git a/py/selenium/webdriver/firefox/webdriver.py b/py/selenium/webdriver/firefox/webdriver.py
+index f0bfdd43458..5434bcb297a 100644
+--- a/py/selenium/webdriver/firefox/webdriver.py
++++ b/py/selenium/webdriver/firefox/webdriver.py
+@@ -54,8 +54,7 @@ def __init__(self, firefox_profile=None, firefox_binary=None, timeout=30,
+ 
+         # marionette
+         if capabilities.get(""marionette""):
+-            if ""binary"" in capabilities:
+-                self.binary = capabilities[""binary""]
++            self.binary = capabilities.get(""binary"")
+             self.service = Service(executable_path, firefox_binary=self.binary)
+             self.service.start()
+ 
+",2,1,1
+https://github.com/mybatis/mybatis-3/commit/9ad51d5c014d1ada21d8b0e9986d53b465527038,Update MyBatis - User - Guide - Guide,Add logging information to the user ' s guide,"diff --git a/doc/en/MyBatis-3-User-Guide.doc b/doc/en/MyBatis-3-User-Guide.doc
+index a90bddd406..cddf9781dc 100644
+Binary files a/doc/en/MyBatis-3-User-Guide.doc and b/doc/en/MyBatis-3-User-Guide.doc differ
+diff --git a/doc/en/MyBatis-3-User-Guide.pdf b/doc/en/MyBatis-3-User-Guide.pdf
+index afa71fde54..9bbfde7bb6 100644
+Binary files a/doc/en/MyBatis-3-User-Guide.pdf and b/doc/en/MyBatis-3-User-Guide.pdf differ
+",2,1,2
+https://github.com/elastic/elasticsearch/commit/fd98f7abc21e2b298eaef530a28aa03fba5ca438,[ DOCS ] Fix typo in shrink test,Adjust skip version for shrink index test,"diff --git a/rest-api-spec/src/main/resources/rest-api-spec/test/indices.shrink/20_source_mapping.yml b/rest-api-spec/src/main/resources/rest-api-spec/test/indices.shrink/20_source_mapping.yml
+index 7f6d57b1f8592..553d8825075bf 100644
+--- a/rest-api-spec/src/main/resources/rest-api-spec/test/indices.shrink/20_source_mapping.yml
++++ b/rest-api-spec/src/main/resources/rest-api-spec/test/indices.shrink/20_source_mapping.yml
+@@ -1,7 +1,7 @@
+ ---
+ ""Shrink index ignores target template mapping"":
+     - skip:
+-        version: "" - 5.99.99""
++        version: "" - 5.5.99""
+         reason:  bug fixed in 6.0
+ 
+     - do:
+",2,2,2
+https://github.com/google/guava/commit/6475a214ebbad56daa661478c10b34d75f3b78d8,Remove unused @ since .,Remove a @ since tag that was just plain false,"diff --git a/src/com/google/common/collect/ImmutableList.java b/src/com/google/common/collect/ImmutableList.java
+index 34161903986..ee392c2234f 100644
+--- a/src/com/google/common/collect/ImmutableList.java
++++ b/src/com/google/common/collect/ImmutableList.java
+@@ -249,7 +249,6 @@
+    * thread.
+    *
+    * @throws NullPointerException if any of {@code elements} is null
+-   * @since 2 (Iterable overload existed previously)
+    */
+   public static <E> ImmutableList<E> copyOf(Collection<? extends E> elements) {
+     if (elements instanceof ImmutableCollection) {
+",3,2,2
+https://github.com/elastic/elasticsearch/commit/1e3c56ce973b9abf6c3215b639c18b12f6eee425,test : fix test error,test : wait only for the index test_1,"diff --git a/elasticsearch/x-pack/graph/src/test/resources/rest-api-spec/test/graph/10_basic.yaml b/elasticsearch/x-pack/graph/src/test/resources/rest-api-spec/test/graph/10_basic.yaml
+index 716c8af193dca..f4a748a17a296 100644
+--- a/elasticsearch/x-pack/graph/src/test/resources/rest-api-spec/test/graph/10_basic.yaml
++++ b/elasticsearch/x-pack/graph/src/test/resources/rest-api-spec/test/graph/10_basic.yaml
+@@ -33,6 +33,7 @@
+ 
+   - do:
+       cluster.health:
++           index: test_1
+            wait_for_status: green
+ 
+   - do:
+",1,1,1
+https://github.com/apache/dubbo/commit/ac31d4f5217f383574984e05b035c2e0968d675f,fix the error message in AbstractDirectory cluster directory .,fix compile error .,"diff --git a/dubbo-cluster/src/main/java/org/apache/dubbo/rpc/cluster/directory/AbstractDirectory.java b/dubbo-cluster/src/main/java/org/apache/dubbo/rpc/cluster/directory/AbstractDirectory.java
+index f44c398df5c..6f3a316180c 100644
+--- a/dubbo-cluster/src/main/java/org/apache/dubbo/rpc/cluster/directory/AbstractDirectory.java
++++ b/dubbo-cluster/src/main/java/org/apache/dubbo/rpc/cluster/directory/AbstractDirectory.java
+@@ -16,6 +16,7 @@
+  */
+ package org.apache.dubbo.rpc.cluster.directory;
+ 
++import org.apache.dubbo.common.Constants;
+ import org.apache.dubbo.common.URL;
+ import org.apache.dubbo.common.logger.Logger;
+ import org.apache.dubbo.common.logger.LoggerFactory;
+",2,1,2
+https://github.com/spring-projects/spring-framework/commit/4fe21b71a2caebf5fce664d98f77798653b01168,updated to 3 . 0 . 0 . RC2,updated version to RC2,"diff --git a/spring-framework-reference/src/spring-framework-reference.xml b/spring-framework-reference/src/spring-framework-reference.xml
+index bfdf0f16dfea..92349b219296 100644
+--- a/spring-framework-reference/src/spring-framework-reference.xml
++++ b/spring-framework-reference/src/spring-framework-reference.xml
+@@ -7,7 +7,7 @@
+ 		<title>Reference Documentation</title>
+ 		<subtitle>(Work in progress)</subtitle>
+ 	    <productname>Spring Framework</productname>
+-		<releaseinfo>3.0.0.RC1</releaseinfo>
++		<releaseinfo>3.0.0.RC2</releaseinfo>
+ 	    <mediaobject>
+ 	      <imageobject role=""fo"">
+ 	        <imagedata align=""center"" fileref=""images/logo-pdf.png""
+",3,2,3
+https://github.com/netty/netty/commit/42d466c97f68ba5406de8a717b1ca3fcfe068cd2,Remove unnecessary System . err ( ),Remove cruft,"diff --git a/codec-http/src/main/java/io/netty/handler/codec/spdy/SpdySessionHandler.java b/codec-http/src/main/java/io/netty/handler/codec/spdy/SpdySessionHandler.java
+index 2ecfd8656c7..c5852c0cdfd 100644
+--- a/codec-http/src/main/java/io/netty/handler/codec/spdy/SpdySessionHandler.java
++++ b/codec-http/src/main/java/io/netty/handler/codec/spdy/SpdySessionHandler.java
+@@ -914,7 +914,6 @@ private synchronized void sendGoAwayFrame(
+ 
+         @Override
+         public void operationComplete(ChannelFuture sentGoAwayFuture) throws Exception {
+-            System.err.println(""ASDF"");
+             ctx.close(future);
+         }
+     }
+",2,1,2
+https://github.com/google/guava/commit/75bcf0a64563396d55e997b017c5640e8a1ff6e5,Add a test to the testModule .,Shuffling from internal change .,"diff --git a/guava-gwt/test/com/google/common/html/testModule.gwt.xml b/guava-gwt/test/com/google/common/html/testModule.gwt.xml
+index 45f8473da33..a5916965c2f 100644
+--- a/guava-gwt/test/com/google/common/html/testModule.gwt.xml
++++ b/guava-gwt/test/com/google/common/html/testModule.gwt.xml
+@@ -5,6 +5,7 @@
+   <inherits name=""com.google.common.base.Base""/>
+   <inherits name=""com.google.common.escape.testing.Testing""/>
+   <inherits name=""com.google.common.html.Html""/>
++  <inherits name=""org.truth0.Truth""/>
+   <entry-point class=""com.google.common.html.TestModuleEntryPoint""/>
+    
+   <source path=""""/>
+",0,0,0
+https://github.com/oracle/graal/commit/64ede7a7b1b8150d5b2a82b1d50b5e369de29fcb,LinearScan : fix liveIn . liveIn .,Merge .,"diff --git a/graal/com.oracle.graal.compiler/src/com/oracle/graal/compiler/alloc/LinearScan.java b/graal/com.oracle.graal.compiler/src/com/oracle/graal/compiler/alloc/LinearScan.java
+index 950a3e9f8b5a..dc19a8a1eab4 100644
+--- a/graal/com.oracle.graal.compiler/src/com/oracle/graal/compiler/alloc/LinearScan.java
++++ b/graal/com.oracle.graal.compiler/src/com/oracle/graal/compiler/alloc/LinearScan.java
+@@ -846,7 +846,7 @@ void computeGlobalLiveSets() {
+             TTY.println(""startBlock-ID: "" + startBlock.getId());
+ 
+             // bailout of if this occurs in product mode.
+-            throw new GraalInternalError(""liveIn set of first block must be empty"");
++            throw new CiBailout(""liveIn set of first block must be empty"");
+         }
+     }
+ 
+",0,0,0
+https://github.com/SeleniumHQ/selenium/commit/fe966771063a813b961243fcc2a47c0b5f0f8d0a,[ bazel ] Fix . bazelrc file,Increasing bazel test timeout,"diff --git a/.bazelrc b/.bazelrc
+index b01c6ec02fa..5185192ec96 100644
+--- a/.bazelrc
++++ b/.bazelrc
+@@ -37,4 +37,4 @@ build --test_env=PATH  # Remove once browser pinning works
+ build --test_env=SELENIUM_BROWSER
+ build --test_env=TRAVIS
+ 
+-test --test_timeout=180
++test --test_timeout=1800
+",1,2,1

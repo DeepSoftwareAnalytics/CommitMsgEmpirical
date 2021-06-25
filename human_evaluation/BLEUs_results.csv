@@ -1,0 +1,101 @@
+url,Generation,Reference,B-Moses,B-Norm,B-CC
+https://github.com/jenkinsci/jenkins/commit/286d3141854b48edb38e8e802f0d85fd1b8ffd40,Noting,Noting,0.0,100.0,19.25
+https://github.com/spring-projects/spring-framework/commit/33d37e86800ea4500957eb82d4be87e81c3b940f,Polish,Polish,0.0,100.0,19.25
+https://github.com/ctripcorp/apollo/commit/84690cc60ff3bcc8ba3c0daf5845063ce59d6398,add known user,add known user,0.0,100.0,70.32
+https://github.com/apache/shardingsphere/commit/8e2f52a597ed8a29752b7e07e3d7bcee15e640c4,", refactor JDBCXABackendDataSourceFactory",", refactor JDBCXABackendDataSourceFactory",0.0,100.0,70.32
+https://github.com/redisson/redisson/commit/c5bc1e9cd3510939ef4ce189456d2eb6ac63677c,kryo updated,kryo updated,0.0,100.0,39.04
+https://github.com/libgdx/libgdx/commit/95740b7b5906a1c84d423da50fae3fd923a0f8c6,Update CHANGES,Update CHANGES,0.0,100.0,39.04
+https://github.com/google/ExoPlayer/commit/a3ca5c48b388cdcce89b016d0c635b31ec1f88e7,Update ISSUE_TEMPLATE,Update ISSUE_TEMPLATE,0.0,100.0,39.04
+https://github.com/apache/shardingsphere/commit/dc4273686644d327a2810d365ed5cbceeb1cafa0,add select_order_by_with_table_star_table_name,change name select_order_by_with_table_star_table_name for parser,0.0,78.30841953,2.86
+https://github.com/libgdx/libgdx/commit/e9219d9f30d01cb669efc39b22e79056c9b4825d,updated CHANGES,Update CHANGES,0.0,70.71067812,12.83
+https://github.com/elastic/elasticsearch/commit/74bd4f78818b3fb60c69dc3c985961d7b861605c,remove unused logger,Remove unused property,0.0,68.6589048,10.69
+https://github.com/google/ExoPlayer/commit/3c6b72ee29f5cebc1079648a73c461a26e035fa8,Fix nullness error,Fix nullness test,0.0,68.6589048,25.0
+https://github.com/nostra13/Android-Universal-Image-Loader/commit/24ca7dd0dbaee8a011aad6195f33e840793e7df9,Built the latest version,Built the latest snapshot,0.0,65.80370065,45.95
+https://github.com/spring-projects/spring-boot/commit/136cdacb401f867e3ab2e299c209994f985ac98e,Add Gradle Wrapper validation,Add Gradle Wrapper Validation GitHub Action,0.0,67.0320046,27.87
+https://github.com/jenkinsci/jenkins/commit/fa172f4171a455f8254307e98ae3d2e1e4b65c8c,typo,typo .,0.0,60.65306597,7.08
+https://github.com/alibaba/fastjson/commit/6ad50106314398c837ecf37600d7ea57f75950c0,fixed issue,fixed for issue,0.0,60.25286105,11.67
+https://github.com/alibaba/nacos/commit/e6be0f76347148f40dccefdad62e436b50579306,remove nacos test,Remove tmp directory,0.0,48.54917717,0.0
+https://github.com/SeleniumHQ/selenium/commit/74139dd78378073c64b89bb9e6fe5696ad8ab7b4,PetSoar !,PetSoar ! not PetStore,0.0,51.3417119,14.36
+https://github.com/apache/shardingsphere/commit/47178abe6c02148993978b1f615cafa54e20046b,", refactor Int2BinaryProtocolValueTest Int2BinaryProtocolValueTest execute",", refactor Int2BinaryProtocolValueTest",0.0,49.49232004,35.56
+https://github.com/apache/shardingsphere/commit/225484c4ef0f70f4b120fae98de6fa32bb813738,", refactor TimeBinaryProtocolValueTest TimeBinaryProtocolValueTest execute",", refactor TimeBinaryProtocolValueTest",0.0,49.49232004,35.56
+https://github.com/dianping/cat/commit/f7fb3650df57cdc0baef9c5151316732416418cd,fix logview bug,modifty the logview,0.0,48.54917717,10.69
+https://github.com/apache/shardingsphere/commit/2ebe1ed2112a0ef99dde4903f7299344a509a124,add configMapOrchestrationListener ( ),add setup ( ),0.0,50.0,22.8
+https://github.com/dbeaver/dbeaver/commit/7e9c72d260125ff6b84dbbd01fe583acf9cbdcbe,Mock Data name fix,Mock data tool icon,0.0,45.18010018,9.62
+https://github.com/zxing/zxing/commit/850b88432014cd4bae0644d02d047ed44ea89434,Update rat to 0 . 11,RAT 0 . 11,0.0,42.72870064,29.62
+https://github.com/SeleniumHQ/selenium/commit/7a375e110d8b2cb57ae604f1160af0aca90fd0ea,[ py ] fix EdgeOptions,[ py ] Remove unused import,0.0,41.89434443,29.11
+https://github.com/redisson/redisson/commit/c7d2afbaf42c423457349a23e5e8dcd3ba760fdb,RedissonRedLock . sync fixed,RedissonRedLock unlock fixed .,0.0,42.04482076,16.04
+https://github.com/spring-projects/spring-framework/commit/620a898e60f107afe963f9e2db9c78e54f3fd399,Fix typo in websocket ( ),Fix typo in documentation,0.0,39.76353644,29.62
+https://github.com/eugenp/tutorials/commit/eb33074a0ee4a31c538e4523367a80a9c3c63cc6,Fix test error,Simulate false unit test,0.0,37.8101372,7.66
+https://github.com/spring-projects/spring-framework/commit/e6353f0ec7d92e4174044be05ac13b14732229b2,Fix test,Fix JUnit reports location,0.0,36.30407264,4.72
+https://github.com/alibaba/druid/commit/fb63307be3605209a6937d6735824cd2a0364f08,bug fixed for issue,"bug fixed for SQLInListExpr , issue 1076",0.0,38.80684295,23.43
+https://github.com/google/guava/commit/9657adb9a22190fd43ff06d2aecbfc66f1135dc3,Add @ since annotation to Enums .,Add @ since for Enums . getField .,0.0,35.84254622,28.47
+https://github.com/oracle/graal/commit/b6144f0233a75c1040e8b40ebdde097953a6daf9,add . gitignore,SDK : Add missing . gitignore,0.0,35.89209635,9.2
+https://github.com/spring-projects/spring-boot/commit/85eb279b30f9f6d99f5eaf83bdcd3b4bec22efdc,Add Gradle Wrapper validation,"Reintroduce "" Add Gradle Wrapper Validation GitHub Action """,0.0,36.78794412,13.16
+https://github.com/dbeaver/dbeaver/commit/95608feab7f949fb9c0426b96b4eb2a090e7794e,Perspective . BOTTOM fix,DBeaver perspective config,0.0,31.94715521,0.0
+https://github.com/iluwatar/java-design-patterns/commit/c2baeb14e9627d804febf51b0b0905819f84ad57,added chain diagram,added chain of responsibility class diagram,0.0,35.89209635,10.79
+https://github.com/eugenp/tutorials/commit/1c896ec494ec84a1565ee3c748657ec258cb215a,Update README . md ( ),Update README ( ),0.0,35.9304112,23.04
+https://github.com/PhilJay/MPAndroidChart/commit/c755ab6472b3359c248f161d0bb734c52fb76c84,Merge pull request from jasta / fix - Projects_using_MPAndroidChart,Update Projects_using_MPAndroidChart . txt,0.0,34.05376657,7.84
+https://github.com/elastic/elasticsearch/commit/e991c1f7179ab46b43c69496888ba85c0c6da27b,[ DOCS ] Fix typo in date format docs,[ DOCS ] fixed typo in date - format . asciidoc,0.0,31.93523872,29.27
+https://github.com/SeleniumHQ/selenium/commit/6879463f445b2e4b90ddb0ea4a4d235da01fbc30,SimonStewart : Fixing the Capabilities,SimonStewart : Backward compatibility fix,0.0,33.9808849,16.62
+https://github.com/elastic/elasticsearch/commit/0b0390aa64a2d5ba20cee24a75fa2d3fc3fbe24f,[ DOCS ] Fix typo in setup docs,[ DOCS ] Fixed typo .,0.0,30.73940765,24.71
+https://github.com/elastic/elasticsearch/commit/d96900fe9efebd78f30d5a2599edfac9b901b011,Mute LicensingDocumentationIT . ( ),Mute LicenseDocumentationIT # testGetLicense ( ),0.0,31.83281793,15.72
+https://github.com/oracle/graal/commit/54a54fb4e6be37592da13667e5e04ac89827ebcf,updated jvmci import,Add Binary repo for jvmci,0.0,29.44656446,5.49
+https://github.com/oracle/graal/commit/41c5deb15a173cb5d5e4215026cbe610acebd15e,Fix typo in README . md,Fix typo .,0.0,30.21375397,16.91
+https://github.com/eclipse-vertx/vert.x/commit/f714a45de00ffb88a297ab4140a25a8dcee42a40,Upgrade to Netty 4 . 0 . 8 . Final,Upgrade to netty 4 . 0 . 8 . Final,70.71,100.0,80.29
+https://github.com/netty/netty/commit/cf74acfce09feff66487a8dd32da9294ffe8c4fb,Remove TODO,Remove todo in StringEncoder ( ),0.0,26.35971381,1.74
+https://github.com/dbeaver/dbeaver/commit/390531a4cd61114d7a93bb2a8828fec3b7e79d4f,Data transfer : changes fix,Transfer status fix,0.0,28.5744043,8.98
+https://github.com/libgdx/libgdx/commit/284e610db4c00dfe990c45e3fced8f13c33d823b,[ fixed ] SpriteBatch . dispose ( ) .,[ fixed ] dispose for spritebatch . ugh . . .,0.0,27.2910251,20.38
+https://github.com/SeleniumHQ/selenium/commit/ad34f5bf2bafe874d9c833480be5e17b93c77fa4,DanielWagnerHall : Fixing the test .,DanielWagnerHall : Removing trailings space,0.0,27.30120863,14.76
+https://github.com/oracle/graal/commit/2b82cd57eaead4f5878082ee729698d21109e0b7,Update GNU import .,Fix GPLv2 license URL .,0.0,26.15611845,7.49
+https://github.com/elastic/elasticsearch/commit/e3e631eca53f2cf784da79993b63514727d523ac,[ DOCS ] Fix typo in allocation . asciidoc,Update allocation . asciidoc,0.0,25.09862124,20.96
+https://github.com/elastic/elasticsearch/commit/f420018bb299698a8c80cf2dcc9be11bb3950ace,[ Monitoring ] Fix test case for test ( ),EQL : Fix async EQL Rest test ( ),0.0,24.02811414,20.71
+https://github.com/SeleniumHQ/selenium/commit/cbc2f3c9bdbb6bd4eac9e80cf527332f578f4d3c,SimonStewart : Fixing the build build .,SimonStewart : Officially target Java6 .,0.0,25.2760077,15.32
+https://github.com/spring-projects/spring-boot/commit/85f45adb9a8d0662a2fc992ab03c3cbb9c442d78,Upgrade to plexus - utils 3 . 0 . 24,Upgrade to Plexus Utils 3 . 0 . 24,45.94,69.99271023,53.25
+https://github.com/spring-projects/spring-boot/commit/b242543545318f709bd99e4b6e4771ec572d27fb,Add missing RestFB,Backport missing 3rd party starter reference,0.0,22.93300746,3.93
+https://github.com/netty/netty/commit/fa277eda200228dbef1de9317184a6dc8b1945a6,Fix a bug in SnappyFramedEncoderTest,Fix reported leaks,0.0,24.02811414,8.98
+https://github.com/dbeaver/dbeaver/commit/2b8637d029522cfaaca9deb81ea4e8bf5121ec69,QM : null type fix,NPE fix,0.0,24.02811414,8.98
+https://github.com/square/retrofit/commit/d7da1cdc2406b88aae75ebfeaca93bbf3c94d505,Rename setServer to setServer .,Retain old parameter type .,0.0,24.02811414,8.98
+https://github.com/Netflix/Hystrix/commit/569eed99a78fca3925c0ee75a2d4e06d5a304ac9,[ Gradle Release Plugin ] - pre tag commit : ' 1 . 3 . 0 - SNAPSHOT ' .,1 . 3 . 0 - SNAPSHOT,15.61,32.1964367,38.35
+https://github.com/bazelbuild/bazel/commit/c89a8ac80d1d8c3791b1777c14b31af7bbd1df52,Fix typo in cpp . md,Fix target label .,0.0,22.95748847,10.69
+https://github.com/bazelbuild/bazel/commit/af76330a372babdf40c016e1fde8a9911b139e8b,Fix visibility of visibility in go,Use default_visibility instead of visibility in package ( ),0.0,20.91747902,17.97
+https://github.com/bazelbuild/bazel/commit/8afa8b37e8de0613b408d04643f0956e1ec75413,Add bazel ( ) to WORKSPACE,Give a name to the Bazel workspace,0.0,22.02445248,7.24
+https://github.com/elastic/elasticsearch/commit/91a38b8fe0cf824356799507fbfc1826234edf44,[ DOCS ] EQL : Update ODBC ODBC docs ( ),[ DOCS ] Fixed bad cross doc link .,0.0,20.16327885,18.09
+https://github.com/jenkinsci/jenkins/commit/927cd7f896c55f17b6cb41754a4eacaffddec93f,Merge pull request from oleg - nenashev / script / 1 . 65,Update script - security to 1 . 65,0.0,19.14984022,18.23
+https://github.com/SeleniumHQ/selenium/commit/4713f55a29d2ca6ae2ad4b90e1e6253bd5075a12,[ grid ] Fixing a bug in the DriverServiceSessionFactory stop,[ grid ] Stop driver server when session is over . Fixes,0.0,20.03351028,15.85
+https://github.com/libgdx/libgdx/commit/e13d9466776c37486ca914ff503eabc35136c6ea,[ fixed ] Mesh . setVertices ( ) .,[ fixed ] Bug in Mesh . setIndices ( ) . had to clear buffer first .,0.0,18.96648169,16.63
+https://github.com/elastic/elasticsearch/commit/2e5e4e1a69032c756e5be27f32d302cbb556a804,Add build to build CI,Switch to parametric CI jobs ( ),0.0,20.47445536,7.74
+https://github.com/elastic/elasticsearch/commit/4d4f979d61dfdbb7979484b9682f9eada185f8a7,Remove unused license from plugin,Remove debugging println from API JAR task,0.0,20.47445536,7.74
+https://github.com/oracle/graal/commit/caa8d816f0273787606c11b41171a5a812a7fe0d,Fix error message in args,Fix git log check start date,0.0,20.3393595,7.35
+https://github.com/apache/flink/commit/973ce7d0eb219ea84ad6b7fd0d063f595485205f,[ FLINK - 10366 ] [ batch ] Add json dependency to flink - hcatalog - connectors,[ FLINK - 5050 ] [ build ] Remove transitive JSON . org dependency,0.0,17.42880947,18.11
+https://github.com/elastic/elasticsearch/commit/1b996defcf6d73ee33118495f1a68c452b38b2a4,[ TEST ] Fix cat . allocation . allocation . allocation,[ TEST ] cat . allocation / One index : allow leading spaces in unassigned shards lines,0.0,18.28758747,17.02
+https://github.com/apache/shardingsphere/commit/5b5309c793a4bdb2623fa5dd3987b9ac83a34930,for : remove useless test case,remove blank line .,0.0,19.30486975,8.55
+https://github.com/apache/shardingsphere/commit/4b5be223c154c7a6ad3c1b4c39a46f6e573e7621,add runtime - connector - java,add mysql dependency,0.0,19.30486975,8.55
+https://github.com/oracle/graal/commit/639d131865baf583d5e1f95ac9a014e4e0625662,[ ci ] fix overlay build,Update overlay revision .,0.0,19.30486975,8.55
+https://github.com/dbeaver/dbeaver/commit/e8d3f0cc88d62d7c6f69f0d2d26347ffc6de4ff3,SQL editor fix ( fix ),RS close fix,0.0,19.30486975,8.55
+https://github.com/spring-projects/spring-boot/commit/1739bfe0770f84d409e07d134d546dbb718f2da1,Add Spring Integration metrics to docs,Add missing title,0.0,19.30486975,8.55
+https://github.com/oracle/graal/commit/f644f74eef65508161ab396a41b172428bae7a68,Add benchmark for benchmark tests .,Add memory benchmarks to BenchTest task,0.0,19.30486975,8.55
+https://github.com/jenkinsci/jenkins/commit/fe21d5c1414da04ba92344665f339889be3cb3dd,[ FIXED HUDSON - 21394 ],fixed a horrible horrible memory leak .,0.0,16.73496495,0.0
+https://github.com/libgdx/libgdx/commit/a6dc032dc382de741a6f35f76bd53b8a24059a0f,[ fixed ] ScaledNumericValue # ScaledNumericValue .,Fixed IndependentScaledNumericValue .,0.0,19.20561264,8.25
+https://github.com/elastic/elasticsearch/commit/b08ba28c9b0708811e168394b6e2852f1492f58e,[ DOCS ] Fix typo in intervals query docs,[ Docs ] Remove boost parameter from intervals - query example ( ),0.0,19.11587841,7.77
+https://github.com/spring-projects/spring-boot/commit/2747c01e8120fe02fcf7f928ec84104e8cb654ad,Fix broken link to github - tag,Set correct github tag for generated docs,0.0,19.20561264,10.08
+https://github.com/jenkinsci/jenkins/commit/8011e2e2d6dd4aa2b18e05cfe6e823d27284f46e,fixed a typo in the BuildTrigger .,fixed typo,0.0,19.20561264,10.08
+https://github.com/SeleniumHQ/selenium/commit/3ae50b5fe8e70886a59f5d1748b42629a1e8e59b,MichaelTamm : remove selenium - htmlunit - driver from java - htmlunit - driver,"removing htmlunit driver from java pom file , it ' s external now",0.0,16.73815723,16.4
+https://github.com/signalapp/Signal-Android/commit/c81bc229437ccb37dd1d9db5b789654c9e982daf,Fix crash in message message .,Fix avatar location in a group conversation .,0.0,19.09251111,9.19
+https://github.com/jenkinsci/jenkins/commit/1908a88bfdc2b976b5ea99687360a364e5050c43,[ JENKINS - 8905 ] - Update changelog for JENKINS - 8905,[ FIXED JENKINS - 8892 ] update changelog,0.0,18.36028135,13.63
+https://github.com/oracle/graal/commit/427dbbd7ef1efcd1a405771e61e329ea694ea854,Add GCC test for float2i32bit i32 . 0,Add testcase for float to i32 bitcast,0.0,18.27776114,11.23
+https://github.com/apache/flink/commit/499790c1ff614da5cf2dfd2e742e33de7ec4145b,[ hotfix ] [ tests ] Fix typo in log4j - test . properties,[ tests ] Revert accidentally committed log level change for tests,0.0,15.57661045,15.45
+https://github.com/apache/flink/commit/82542d68edd5999cd7cd8330bb7a3b19852b8eb6,[ ci ] [ travis ] Add gem install - - - - version,"[ travis ] Fix some ruby dependencies for travis , see",0.0,15.57661045,15.45
+https://github.com/elastic/elasticsearch/commit/fb64c18ac641cd14787478844e4d8953ef4bcd4f,[ DOCS ] Fix typo in termvectors . asciidoc,[ DOCS ] Update term vectors snippet to prevent CI failure ( ),0.0,16.82410895,13.44
+https://github.com/SeleniumHQ/selenium/commit/cdb73f565626af524739851ba402839c74fd7eb2,SimonStewart : Fixing a typo in the formPage page,SimonStewart : Green bar with HtmlUnit .,0.0,17.23243847,11.82
+https://github.com/jenkinsci/jenkins/commit/520000d020f3a650e427cb79c6279653d77e2f12,Merge pull request from oleg - nenashev / maven / 1 . 42,upgrade maven - antrun - extended - plugin 1 . 39 - > 1 . 42,0.0,15.45617589,14.47
+https://github.com/SeleniumHQ/selenium/commit/6ba161729224c1dbd3a0cd6a2154b7f62955ea48,[ py ] fix binary capabilities,py : use dict getter to retrieve binary,0.0,17.25203129,7.66
+https://github.com/mybatis/mybatis-3/commit/9ad51d5c014d1ada21d8b0e9986d53b465527038,Update MyBatis - User - Guide - Guide,Add logging information to the user ' s guide,0.0,14.77900651,0.0
+https://github.com/elastic/elasticsearch/commit/fd98f7abc21e2b298eaef530a28aa03fba5ca438,[ DOCS ] Fix typo in shrink test,Adjust skip version for shrink index test,0.0,16.51582159,9.62
+https://github.com/google/guava/commit/6475a214ebbad56daa661478c10b34d75f3b78d8,Remove unused @ since .,Remove a @ since tag that was just plain false,0.0,16.34351367,7.06
+https://github.com/elastic/elasticsearch/commit/1e3c56ce973b9abf6c3215b639c18b12f6eee425,test : fix test error,test : wait only for the index test_1,0.0,16.34351367,9.12
+https://github.com/apache/dubbo/commit/ac31d4f5217f383574984e05b035c2e0968d675f,fix the error message in AbstractDirectory cluster directory .,fix compile error .,0.0,16.03659097,10.69
+https://github.com/spring-projects/spring-framework/commit/4fe21b71a2caebf5fce664d98f77798653b01168,updated to 3 . 0 . 0 . RC2,updated version to RC2,0.0,16.03659097,10.69
+https://github.com/netty/netty/commit/42d466c97f68ba5406de8a717b1ca3fcfe068cd2,Remove unnecessary System . err ( ),Remove cruft,0.0,16.14993082,8.25
+https://github.com/google/guava/commit/75bcf0a64563396d55e997b017c5640e8a1ff6e5,Add a test to the testModule .,Shuffling from internal change .,0.0,16.14993082,8.25
+https://github.com/oracle/graal/commit/64ede7a7b1b8150d5b2a82b1d50b5e369de29fcb,LinearScan : fix liveIn . liveIn .,Merge .,0.0,16.14993082,8.25
+https://github.com/SeleniumHQ/selenium/commit/fe966771063a813b961243fcc2a47c0b5f0f8d0a,[ bazel ] Fix . bazelrc file,Increasing bazel test timeout,0.0,16.14993082,8.25
