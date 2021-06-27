@@ -42,22 +42,22 @@ See RQ1 results [here](human_evaluation/ReadMe.md).
 
 ### (RQ2) How good are the existing models and datasets?
 
-RQ2 results: [RQ2.ipynb](research_questions/RQ2.ipynb)
+RQ2 results: [RQ2.ipynb](research_questions/RQ2.ipynb).
 
 
 ### (RQ3) Why do we need a new dataset MCMD for evaluating commit message generation?
 
-RQ3 results: [RQ3.ipynb](research_questions/RQ3.ipynb)
+RQ3 results: [RQ3.ipynb](research_questions/RQ3.ipynb).
 
 
 ### (RQ4) What is the impact of different dataset splitting strategies?
 
-RQ4 results: [RQ4.ipynb](research_questions/RQ4.ipynb)
+RQ4 results: [RQ4.ipynb](research_questions/RQ4.ipynb).
 
 
 ## Possible Ways to Improve
 
-Evaluation results of our improvements to NNGen can be found in [nngen_improvement.ipynb](discussion/nngen_improvement.ipynb)
+Evaluation results of our improvements to NNGen can be found in [nngen_improvement.ipynb](discussion/nngen_improvement.ipynb).
 
 
 [CommitGen]: https://sjiang1.github.io/commitgen/ "S. Jiang, A. Armaly, and C. McMillan, “Automatically generating commit messages from diffs using neural machine translation,” in ASE, 2017."
