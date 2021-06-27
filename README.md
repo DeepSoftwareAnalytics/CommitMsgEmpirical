@@ -42,25 +42,6 @@ See RQ1 results [here](human_evaluation/ReadMe.md).
 
 ### (RQ2) How good are the existing models and datasets?
 
-**Note**: There is one line missing in Table IV of the paper. The complete results including **ATOM** are shown here
-
-
-<center>TABLE IV</center>
-<br/>
-<center>MODELS PERFORMANCE. BM, BN, BCARE SHORT FORB-MOSES, B-NORM,ANDB-CC,RESPECTIVELY.</center>
-
-| Model     | MCMD<sub>Java</sub> | MCMD<sub>Java</sub> | MCMD<sub>Java</sub> |Commitgen<sub>data</sub> | Commitgen<sub>data</sub> | Commitgen<sub>data</sub> | NNGen<sub>data</sub> | NNGen<sub>data</sub> | NNGen<sub>data</sub> | CoDiSum<sub>data</sub> | CoDiSum<sub>data</sub> | CoDiSum<sub>data</sub> | 
-|-----------|---------------|---------------|---------------|-----------|-----------|-----------|-------------|-------------|-------------|-----------|-----------|-----------|
-|           | BM            | BN            | BC            | BM        | BN        | BC        | BM          | BN          | BC          | BM        | BN        | BC        |
-| CommitGen | 6.29      | 12.39     | 7.67      |34.03         | 31.11         | 26.00         | 15.08     | 21.60     | 15.48     | 1.33        | 9.37        |  4.17        |
-| CoDiSum   |  2.00      | 14.00     | 5.37      |0.00          | 6.88          | 0.49          | 0.00      | 8.03      | 0.86      | 1.74        | 15.45       | 5.72        |
-| NMT       | 9.17      | 13.39     | 10.24     |32.09         | 26.66         | 21.51         | 7.46      | 13.82     | 8.28      | 1.32        | 9.93        | 3.81        | 
-| PtrGNCMsg |  8.25      | 15.33     | 11.70     |35.41         | 29.86         | 24.82         | 9.69      | 18.96     | 10.39     | 0.81        | 12.71       | 4.77        |
-| NNGen     |  13.30     | 17.81     | 14.46     |38.54         | 34.74         | 29.44         | 16.41     | 23.07     | 16.77     | 3.04        | 9.07        | 5.27        |
-| **ATOM**      |  **7.47**      | **16.42**     | **9.29**      |/             | /             | /             | /         | /         | /         | /           | /           | /           |
-
-* As shown in Teble IV, only our MCMD dataset can be used to evaluate ATOM. This is because ATOM needs to know the complete code of the modified functions in order to extract the AST information. However, this information is unavailable in existing public datasets.
-
 RQ2 results: [RQ2.ipynb](research_questions/RQ2.ipynb)
 
 
