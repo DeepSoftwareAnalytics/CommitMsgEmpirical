@@ -3,7 +3,7 @@
 This is the replication package for "On the Evaluation of Commit Message Generation Models: An Experimental Study".
 
 ```sh
-conda create -n MCMD python=3.8 numpy=1.19.2
+conda create -n MCMD python=3.8 numpy=1.19.2 -y
 conda activate MCMD
 pip install nltk==3.6.2 scipy==1.5.2 pandas==1.1.3 krippendorff==0.4.0 scikit-learn==0.24.1 sumeval==0.2.2
 ```
