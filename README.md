@@ -1,6 +1,8 @@
 ## Environment
 
-This is the replication package for "On the Evaluation of Commit Message Generation Models: An Experimental Study".
+This is the replication package for "[On the Evaluation of Commit Message Generation Models: An Experimental Study](https://arxiv.org/abs/2107.05373)" accepted to ICSME2021.
+
+.
 
 ```sh
 conda create -n MCMD python=3.8 numpy=1.19.2 -y
