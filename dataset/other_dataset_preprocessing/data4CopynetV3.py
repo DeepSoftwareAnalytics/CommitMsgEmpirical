@@ -1,4 +1,3 @@
-from data_process_tools import pygment_mul_line, split_variable, line_filter_cmt
 import multiprocessing as mp
 from tqdm import tqdm
 import logging.config
@@ -32,6 +31,135 @@ logging_config = {
 logging.config.dictConfig(logging_config)
 logger = logging.getLogger(__name__)
 
+def pygment_mul_line(java_lines, language="java"):
+    string = '\n'.join(java_lines)
+    if string == '':
+        return list(), dict()
+
+    if language == "java":
+        lexer = JavaLexer()
+    elif language == "python":
+        lexer = PythonLexer()
+    elif language == "cpp":
+        lexer = CppLexer()
+    elif language == "c":
+        lexer = CLexer()
+    elif language == "javascript":
+        lexer = JavascriptLexer()
+    elif language == "csharp":
+        lexer = CSharpLexer()
+    else:
+        print("Please modify this file. Reference: https://pygments.org/docs/lexers/")
+
+    x = highlight(string, lexer, RawTokenFormatter())
+    x = str(x, encoding='utf-8')
+    tokenList = list()
+    variableDict = dict()
+    nameNum, attNum, clsNum, fucNum = 0, 0, 0, 0
+    otherDict = dict()
+    floatNum, numberNum, strNum = 0, 0, 0
+    for y in x.splitlines():
+        ys = y.split('\t')
+        # print(ys)
+        s = eval(ys[1])
+        if s == '\n':
+            tokenList.append('<nl>')
+        elif s == 'NewBlock':
+            tokenList.append('<nb>')
+        elif s.isspace():
+            lines = s.count('\n')
+            for _ in range(lines):
+                tokenList.append('<nl>')
+        elif "Token.Literal.Number.Float" == ys[0]:
+            if s not in otherDict:
+                sT = 'FLOAT{}'.format(floatNum)
+                otherDict[s] = sT
+                floatNum += 1
+            tokenList.append(otherDict[s])
+        elif ys[0].startswith('Token.Literal.Number'):
+            if s not in otherDict:
+                sT = 'NUMBER{}'.format(numberNum)
+                otherDict[s] = sT
+                numberNum += 1
+            tokenList.append(otherDict[s])
+        elif ys[0].startswith('Token.Literal.String'):
+            if s not in otherDict:
+                sT = 'STRING{}'.format(strNum)
+                otherDict[s] = sT
+                strNum += 1
+            tokenList.append(otherDict[s])
+        elif "Token.Name.Namespace" == ys[0]:
+            tokenList.append('NAMESPACE')
+        elif "Token.Comment.Single" == ys[0]:
+            tokenList.append('SINGLE')
+        elif "Token.Comment.Multiline" == ys[0]:
+            lines = s.count('\n')
+            for _ in range(lines):
+                tokenList.append('COMMENT')
+                tokenList.append('<nl>')
+            tokenList.append('COMMENT')
+        elif 'Token.Name.Decorator' == ys[0]:
+            tokenList.append('@')
+            tokenList.append(s[1:].lower())
+        elif 'Token.Name' == ys[0]:
+            if s not in variableDict:
+                sT = 'n{}'.format(nameNum)
+                variableDict[s] = sT
+                nameNum += 1
+            tokenList.append(s)
+        elif 'Token.Name.Attribute' == ys[0]:
+            if s not in variableDict:
+                sT = 'a{}'.format(attNum)
+                variableDict[s] = sT
+                attNum += 1
+            tokenList.append(s)
+        elif 'Token.Name.Class' == ys[0]:
+            if s not in variableDict:
+                sT = 'c{}'.format(clsNum)
+                variableDict[s] = sT
+                clsNum += 1
+            tokenList.append(s)
+        elif 'Token.Name.Function' == ys[0]:
+            if s not in variableDict:
+                sT = 'f{}'.format(fucNum)
+                variableDict[s] = sT
+                fucNum += 1
+            tokenList.append(s)
+        else:
+            a = s.splitlines()
+            for i in a:
+                if i != '' and not i.isspace():
+                    tokenList.append(i)
+                tokenList.append('<nl>')
+            tokenList.pop()
+    return tokenList, variableDict
+
+def split_variable(var):
+    pattern1 = re.compile(r'[a-zA-Z]+')
+    pattern2 = re.compile(r'[a-zA-Z][a-z]*')
+    words = pattern1.findall(var)
+    wordList = list()
+    for i in words: # lower
+        if i.islower() or i.isupper():
+            wordList.append(i.lower())
+        else:
+            for j in pattern2.findall(i):
+                wordList.append(j.lower())
+    # print(wordList)
+    return wordList
+
+def line_filter_cmt(line, language="java"):
+    if language == "java" or language == "cpp" or language == "csharp" or language == "javascript":
+        if line.startswith('/*') or line.startswith('*') or line.endswith('*/') or line.startswith('//'):
+            return 'COMMENT'
+        else:
+            return line
+    elif language == "python":
+        if line.startswith('\'\'\'') or line.startswith('#') or line.endswith('\'\'\''):
+            return 'COMMENT'
+        else:
+            return line
+          
 # filter Chinese sentence
 def is_contain_chinese(check_str):
     for ch in check_str:
