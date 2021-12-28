@@ -2,8 +2,12 @@ import os,argparse
 import numpy as np
 from nltk.translate.meteor_score import meteor_score
 
-# import nltk
-# nltk.download('wordnet')
+try:
+    import nltk
+    nltk.data.find('corpora/wordnet')
+except:
+    if nltk.download('wordnet') == False:
+        print("Please use the NLTK Downloader to obtain the resource: corpora/wordnet")
 
 def get_meteor(ref_path, gen_path, is_sentence=False):
     gen_sentence_lst = open(gen_path).read().split("\n")
