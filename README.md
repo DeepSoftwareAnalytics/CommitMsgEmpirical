@@ -2,11 +2,19 @@ This is the replication package for "[On the Evaluation of Commit Message Genera
 
 ## Environment
 
+### Conda
+
 ```sh
 conda create -n MCMD python=3.8 numpy=1.19.2 -y
 conda activate MCMD
-pip install nltk==3.6.2 scipy==1.5.2 pandas==1.1.3 krippendorff==0.4.0 scikit-learn==0.24.1 sumeval==0.2.2
-python -c "import nltk;nltk.download('wordnet')"
+conda install ipykernel -y # this two lines can help jupyter notebook find the correct kernel
+python -m ipykernel install --user --name MCMD --display-name "MCMD" # this two lines can help jupyter notebook find the correct kernel
+pip install nltk==3.6.2 scipy==1.5.2 pandas==1.1.3 krippendorff==0.4.0 scikit-learn==0.24.1 sumeval==0.2.2 sacrebleu==1.5.1
+```
+### Docker
+
+```sh
+docker pull itaowei/commit_msg_empirical
 ```
 
 ## Experimental Models
