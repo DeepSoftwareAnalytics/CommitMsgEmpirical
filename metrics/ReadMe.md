@@ -7,6 +7,20 @@ There are 3 BLEU variants B-Moses, B-Norm, B-CC commonly used in commit message 
 
 Commands below are supposed to used under the folder `metrics`
 
+## Environment
+
+### Conda
+
+```sh
+conda create -n MCMD python=3.8 numpy=1.19.2 -y
+conda activate MCMD
+pip install nltk==3.6.2 scipy==1.5.2 pandas==1.1.3 krippendorff==0.4.0 scikit-learn==0.24.1 sumeval==0.2.2 sacrebleu==1.5.1
+```
+### Docker
+
+```sh
+docker pull itaowei/commit_msg_empirical
+```
 
 ## B-Moses
 
