@@ -9,9 +9,9 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     comparision_metrics = pd.read_csv("BLEUs_results.csv")
+    
     human_result = pd.read_csv("human_annotation.csv")
     human_result["AVG"] = (human_result["Author1"]+human_result["Author2"]+human_result["Author3"])/3*25
-    
     results = pd.DataFrame(columns=['B-Moses', 'B-Norm', 'B-CC'], index=["Pearson","Spearman","Kendall"])
     for bleu_var in ['B-Moses', 'B-Norm', 'B-CC']:
         results[bleu_var]["Pearson"] = stats.pearsonr(human_result["AVG"],comparision_metrics[bleu_var])[0]
@@ -29,5 +29,28 @@ if __name__ == "__main__":
             print("\tPearsonResult(correlation={}, pvalue={})".format(results[bleu_var]["Pearson"],stats.pearsonr(human_result["AVG"],comparision_metrics[bleu_var])[1]))
             print("\t{}".format(stats.spearmanr(human_result["AVG"],comparision_metrics[bleu_var])))
             print("\t{}".format(stats.kendalltau(human_result["AVG"],comparision_metrics[bleu_var])))
+
+    human_result = pd.read_csv("human_annotation_emse_enhanced.csv")
+    for human_metric in ["Content adequacy", "Conciseness", "Expressiveness"]:
+        human_result["{} AVG".format(human_metric)] = (human_result["{} #1".format(human_metric)]+human_result["{} #2".format(human_metric)]+human_result["{} #3".format(human_metric)])/3*25
+
+        results = pd.DataFrame(columns=['B-Moses', 'B-Norm', 'B-CC'], index=["Pearson","Spearman","Kendall"])
+        for bleu_var in ['B-Moses', 'B-Norm', 'B-CC']:
+            results[bleu_var]["Pearson"] = stats.pearsonr(human_result["{} AVG".format(human_metric)],comparision_metrics[bleu_var])[0]
+        for bleu_var in ['B-Moses', 'B-Norm', 'B-CC']:
+            results[bleu_var]["Spearman"] = stats.spearmanr(human_result["{} AVG".format(human_metric)],comparision_metrics[bleu_var])[0]
+        for bleu_var in ['B-Moses', 'B-Norm', 'B-CC']:
+            results[bleu_var]["Kendall"] = stats.kendalltau(human_result["{} AVG".format(human_metric)],comparision_metrics[bleu_var])[0]
+
+        if args.format:
+            pd.options.display.float_format = '{:.4f}'.format
+            print(results)
+        else:
+            print("="*5, human_metric, "="*5)
+            for bleu_var in ['B-Moses', 'B-Norm', 'B-CC']:
+                print(bleu_var)
+                print("\tPearsonResult(correlation={}, pvalue={})".format(results[bleu_var]["Pearson"],stats.pearsonr(human_result["{} AVG".format(human_metric)],comparision_metrics[bleu_var])[1]))
+                print("\t{}".format(stats.spearmanr(human_result["{} AVG".format(human_metric)],comparision_metrics[bleu_var])))
+                print("\t{}".format(stats.kendalltau(human_result["{} AVG".format(human_metric)],comparision_metrics[bleu_var])))
 
         

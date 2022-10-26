@@ -1,0 +1,584 @@
+Database,Title
+IEEE,Boosting Neural Commit Message Generation with Code Semantic Analysis
+IEEE,ATOM: Commit Message Generation Based on Abstract Syntax Tree and Hybrid Ranking
+IEEE,Neural-Machine-Translation-Based Commit Message Generation: How Far Are We?
+IEEE,Quality Assurance for Automated Commit Message Generation
+IEEE,On Automatically Generating Commit Messages via Summarization of Source Code Changes
+IEEE,Towards Automatic Generation of Short Summaries of Commits
+IEEE,ChangeScribe: A Tool for Automatically Generating Commit Messages
+IEEE,Generating Commit Messages from Diffs using Pointer-Generator Network
+IEEE,Automatically generating commit messages from diffs using neural machine translation
+IEEE,24765-2010 - ISO/IEC/IEEE International Standard - systems and software engineering -- Vocabulary
+I/C,CoreGen: Contextualized Code Representation Learning for Commit Message Generation
+I/C,Quality Assurance for Automated Commit Message Generation
+I/C,On the Relevance of Cross-project Learning with Nearest Neighbours for Commit Message Generation
+I/C,Boosting neural commit message generation with code semantic analysis
+I/C,Commit message generation from code differences using hidden markov models
+I/C,ATOM: Commit Message Generation Based on Abstract Syntax Tree and Hybrid Ranking
+I/C,Context-aware Retrieval-based Deep Commit Message Generation
+I/C,Neural-Machine-Translation-Based Commit Message Generation: How Far Are We?
+I/C,Commit message generation for source code changes
+I/C,Generating Commit Messages from Diffs using Pointer-Generator Network
+I/C,Towards Automatic Generation of Short Summaries of Commits
+I/C,ChangeScribe: A Tool for Automatically Generating Commit Messages
+I/C,On Automatically Generating Commit Messages via Summarization of Source Code Changes
+I/C,Unsupervised learning of general-purpose embeddings for code changes
+I/C,Learning Human-Written Commit Messages to Document Code Changes
+I/C,Comparing approaches to analyze refactoring activity on software repositories
+ACM,Context-aware Retrieval-based Deep Commit Message Generation
+ACM,Commit Message Generation from Code Differences using Hidden Markov Models
+ACM,Neural-machine-translation-based commit message generation: how far are we?
+ACM,On the Relevance of Cross-project Learning with Nearest Neighbours for Commit Message Generation
+ACM,Boosting neural commit message generation with code semantic analysis
+ACM,Unsupervised learning of general-purpose embeddings for code changes
+ACM,ChangeScribe: a tool for automatically generating commit messages
+ACM,Generating commit messages from diffs using pointer-generator network
+ACM,Why did this code change?
+ACM,How do developers blog?: an exploratory study
+ACM,On the classification of software change messages using multi-label active learning
+ACM,RCLinker: automated linking of issue reports and commits leveraging rich contextual information
+ACM,Towards automatic generation of short summaries of commits
+ACM,Automating app review response generation
+ACM,Continuous test generation: enhancing continuous integration with automated test generation
+ACM,Generating Question Titles for Stack Overflow from Mined Code Snippets
+ACM,SPI: Automated Identification of Security Patches via Commits
+ACM,ClDiff: generating concise linked code differences
+ACM,Automatic generation of pull request descriptions
+ACM,Semi-automatic generation of audience-specific release notes
+ACM,Control generation for embedded systems based on composition of modal processes
+ACM,Retrieve and refine: exemplar-based neural comment generation
+ACM,LV*: a class of lazy versioning HTMs for low-cost integration of transactional memory systems
+ACM,A Large-Scale Comparative Evaluation of IR-Based Tools for Bug Localization
+ACM,MIDDLE-R: Consistent database replication at the middleware level
+ACM,Ensuring recoverability in composing web services
+ACM,Cherry-picking of code commits in long-running multi-release software
+ACM,Bad-token: denial of service attacks on WPA3
+ACM,Regression tests to expose change interaction errors
+ACM,Traceability in the wild: automatically augmenting incomplete trace links
+ACM,An empirical Study of Quick Remedy Commits
+ACM,An empirical investigation of how and why developers rename identifiers
+ACM,Detecting and Characterizing Bots that Commit Code
+ACM,Fault tolerant consensus protocol for distributed database transactions
+ACM,Using process groups to implement failure detection in asynchronous environments
+ACM,Performance regression testing of concurrent classes
+ACM,Comparing repositories visually with repograms
+ACM,Traceability Support for Multi-Lingual Software Projects
+ACM,Exploring the Security Awareness of the Python and JavaScript Open Source Communities
+ACM,DeLICM: scalar dependence removal at zero memory cost
+ACM,Multi-site Gargamel: optimistic synchronization for reliable geo-replicated databases
+ACM,How do centralized and distributed version control systems impact software changes?
+ACM,Scalable selective re-execution for EDGE architectures
+ACM,Mining energy-aware commits
+ACM,SmartCommit: a graph-based interactive assistant for activity-oriented commits
+ACM,Evaluation of remote backup algorithms for transaction processing systems
+ACM,Evaluation of remote backup algorithms for transaction-processing systems
+ACM,COMBFT: Conflicting-Order-Match based Byzantine Fault Tolerance Protocol with High Efficiency and Robustness
+ACM,CoRA: decomposing and describing tangled code changes for reviewer
+ACM,Computation and communication in R*: a distributed database manager
+ACM,Recommending method invocation context changes
+ACM,Threats on building models from CVS and Bugzilla repositories: the Mozilla case study
+ACM,ARCA: automated analysis of AUTOSAR meta-model changes
+ACM,Method for distributed transaction commit and recovery using Byzantine Agreement within clusters of processors
+ACM,Method for distributed transaction commit and recovery using Byzantine Agreement within clusters of processors
+ACM,CVExplorer: identifying candidate developers by mining and exploring their open source contributions
+ACM,A novel industry grade dataset for fault prediction based on model-driven developed automotive embedded software
+ACM,Toward imitating visual attention of experts in software development tasks
+ACM,WarningsGuru: integrating statistical bug models with static analysis to provide timely and specific bug warnings
+ACM,Precfix: large-scale patch recommendation by mining defect-patch pairs
+ACM,Improving real-world vulnerability characterization with vulnerable slices
+ACM,Private blockchain-envisioned security framework for AI-enabled IoT-based drone-aided healthcare services
+ACM,An efficient fault-tolerant protocol for replicated data management
+ACM,Roll-DPoS: A Randomized Delegated Proof of Stake Scheme for Scalable Blockchain-Based Internet of Things systems
+ACM,Commit bubbles
+ACM,Automated topic naming to support cross-project analysis of software maintenance activities
+ACM,CoopEdge: A Decentralized Blockchain-based Platform for Cooperative Edge Computing
+ACM,Commitment in a partitioned distributed database
+ACM,Anatomy of functionality deletion: an exploratory study on mobile apps
+ACM,Data caching tradeoffs in client-server DBMS architectures
+ACM,OSI distributed transaction processing commitment optimizations
+ACM,Are Multi-Language Design Smells Fault-Prone? An empirical Study
+ACM,Open Semantic Revision Control with R43ples: Extending SPARQL to access revisions of Named Graphs
+ACM,Decision knowledge triggers in continuous software engineering
+ACM,Progressive optimization in a shared-nothing parallel database
+ACM,Detecting and characterizing semantic inconsistencies in ported code
+ACM,Open commit protocols tolerating commission failures
+ACM,Securing every bit: authenticated broadcast in radio networks
+ACM,Preventing and repairing build breakage
+ACM,Bugs.jar: a large-scale diverse dataset of real-world Java bugs
+ACM,Increasing efficiency and effectiveness of software product line evolution: an infrastructure on top of configuration management
+ACM,The 8th International Workshop on Realizing Artificial Intelligence Synergies in Software Engineering
+ACM,Which Refactoring Reduces Bug Rate?
+ACM,Conflict management in PDEVS: an experience in modelling and simulation of time petri nets
+ACM,Information Needs in Contemporary Code Review
+ACM,BugsInPy: a database of existing bugs in Python programs to enable controlled testing and debugging studies
+ACM,A study of oracle approximations in testing deep learning libraries
+ACM,Circumventing refactoring masking using fine-grained change recording
+ACM,How to Communicate when Submitting Patches: An empirical Study of the Linux Kernel
+ACM,Low-latency multi-datacenter databases using replicated commit
+ACM,Overview of Blockchain Consensus Mechanism
+ACM,FHistorian: Locating Features in Version Histories
+ACM,How Often Do Single-Statement Bugs Occur?: The ManySStuBs4J Dataset
+ACM,Versioning in Main-Memory database systems: From MusaeusDB to TardisDB
+ACM,Secure agreement protocols: reliable and atomic group multicast in rampart
+ACM,Report on evaluation experiments using different machine learning techniques for defect prediction
+ACM,Just-in-time detection of protection-impacting changes on WordPress and MediaWiki
+ACM,A unified framework to learn program semantics with graph neural networks
+ACM,ConfluxDB: multi-master replication for partitioned snapshot isolation databases
+ACM,Feature-oriented defect prediction
+ACM,Program Repairing History as Git Repository
+ACM,Rectifying orphan components using group-failover in distributed real-time and embedded systems
+ACM,Triton: a peer-assisted cloud storage system
+ACM,SMChain: a scalable blockchain protocol for secure metering systems in distributed industrial plants
+ACM,A Large-Scale empirical Study of Security Patches
+ACM,Amalgamating source code authors maintainers and change proneness to triage change requests
+ACM,Identifying Optimal Sets of Standardized Architectural Features: A Method and its Automotive Application
+ACM,A case of system-level hardware/software co-design and co-verification of a commodity multi-processor system with custom hardware
+ACM,Toward improving ability to repair bugs automatically: a patch candidate location mechanism using code similarity
+ACM,Formal modeling and analysis of RAMP transaction systems
+ACM,How is video game development different from software development in open source?
+ACM,Code recommendation for exception handling
+ACM,A Blockchain-Based Privacy-Preserving Scheme for Smart Grids
+ACM,Automatically diagnosing and repairing error handling bugs in C
+ACM,T??r: blob storage meets built-in transactions
+ACM,Hybrids on Steroids: SGX-Based High Performance BFT
+ACM,An empirical analysis of flaky tests
+ACM,Consistent and efficient output-streams management in optimistic simulation platforms
+ACM,Predicting co-changes between functionality specifications and source code in behavior driven development
+ACM,Don?_?t Trust the cloud Verify: Integrity and Consistency for cloud Object Stores
+ACM,Carousel: Low-Latency Transaction Processing for Globally-Distributed Data
+ACM,Architecture and design of AlphaServer GS320
+ACM,Mining modern repositories with elasticsearch
+ACM,Architecture and design of AlphaServer GS320
+ACM,Automat+E152:H152ically documenting program changes
+ACM,Expressing and checking intended changes via software change contracts
+ACM,Process mining software repositories from student projects in an undergraduate software engineering course
+ACM,An empirical Study of Crash-inducing Commits in Mozilla Firefox
+ACM,Colored Petri nets: a graphical language for formal modeling and validation of concurrent systems
+ACM,Shadow of a doubt: testing for divergences between software versions
+ACM,On the interplay between non-functional requirements and builds on continuous integration
+ACM,Toward understanding compiler bugs in GCC and LLVM
+ACM,Scalable and Fault Tolerant Failure Detection and Consensus
+ACM,Designing Representations for Digital Documents
+ACM,Bisecting commits and modeling commit risk during testing
+ACM,A message driven OR-parallel machine
+ACM,Separ: Towards Regulating Future of Work Multi-Platform Crowdworking Environments with Privacy Guarantees
+ACM,CBCD: cloned buggy code detector
+ACM,Using Others' Tests to Identify Breaking Updates
+ACM,1Pipe: scalable total order communication in data center networks
+ACM,Semantic crash bucketing
+ACM,Revisiting prior empirical findings for mobile apps: an empirical case study on the 15 most popular open-source Android apps
+ACM,Context-based synchronization: an approach beyond semantics for concurrency control
+ACM,A dataset of parametric cryptographic misuses
+ACM,Transactional auto scaler: elastic scaling of in-memory transactional data grids
+ACM,Cost and availability tradeoffs in replicated data concurrency control
+ACM,Building test suites in social coding sites by leveraging drive-by commits
+ACM,Maintaining feature traceability with embedded annotations
+ACM,The uniqueness of changes: characteristics and applications
+ACM,A Secure Hash Commitment Approach for Moving Target Defense of Security-critical Services
+ACM,Don't trust the cloud verify: integrity and consistency for cloud object stores
+ACM,BugSwarm: mining and continuously growing a dataset of reproducible failures and fixes
+ACM,"Is there a ""golden"" feature set for static warning identification?: an experimental evaluation"
+ACM,Commits as a basis for API misuse detection
+ACM,Retrieval-based neural source code summarization
+ACM,A hierarchical structure for concurrency control in a distributed database system
+ACM,Unveiling multiple facets of design degradation in modern code review
+ACM,Supporting Developers' Coordination in the IDE
+ACM,CodePilot: Scaffolding End-to-End Collaborative Software Development for Novice Programmers
+ACM,Management of a remote backup copy for disaster recovery
+ACM,New notions of security: achieving universal composability without trusted setup
+ACM,Distributed process groups in the V Kernel
+ACM,OrpheusDB: bolt-on versioning for relational databases
+ACM,Spanner: Google's globally-distributed database
+ACM,MARBLE: mining for boilerplate code to identify API usability problems
+ACM,FaRM: fast remote memory
+ACM,Recovering system specific rules from software repositories
+ACM,An Algorithm for Replicated Objects with Efficient Reads
+ACM,A deep multitask learning approach for requirements discovery and annotation from open forum
+ACM,Covrig: a framework for the analysis of code test and coverage evolution in real software
+ACM,SoftMon: A Tool to Compare Similar Open-source Software from a Performance Perspective
+ACM,Flash: efficient dynamic routing for offchain networks
+ACM,An architectural blueprint for a pluggable version control system for software (evolution) analysis
+ACM,Semantic bug seeding: a learning-based approach for creating realistic bugs
+ACM,Undefined behavior: what happened to my code?
+ACM,An evaluation of a client-server real-time database system
+ACM,RTChain: A Reputation system with Transaction and Consensus Incentives for E-commerce Blockchain
+ACM,The TickerTAIP parallel RAID architecture
+ACM,Transparent speculation in geo-replicated transactional data stores
+ACM,Spanner: Google?_?s Globally Distributed database
+ACM,Machine fault tolerance for reliable datacenter systems
+ACM,Deconstructing RDMA-enabled distributed transactions: hybrid is better
+ACM,OffSide: Learning to Identify Mistakes in Boundary Conditions
+ACM,Documentation practices in scientific software development
+ACM,Improved Automatic Summarization of Subroutines via Attention to File Context
+ACM,obTIOS: a CAx-framework service for building concurrent engineering environments
+ACM,A graphical interface for analysis of communication protocols
+ACM,COMA: an opportunity for building fault-tolerant scalable shared memory multiprocessors
+ACM,On the Impact of Programming Languages on Code Quality: A Reproduction Study
+ACM,One Primitive to Diagnose Them All: Architectural Support for Internet Diagnostics
+ACM,Identifying features in forks
+ACM,Towards Versioning of Arbitrary RDF Data
+ACM,A syntax-guided edit decoder for neural program repair
+ACM,Code Review is just reviewing code? A qualitative study with practitioners in industry
+ACM,Building white-box abstractions by program refinement
+ACM,Defect prediction using social network analysis on issue repositories
+ACM,Automated parameter estimation process for clustering algorithms used in software maintenance
+ACM,A Human Study of Comprehension and Code Summarization
+ACM,Taming the Wild Etext: Managing Annotating and Sharing Tibetan Corpora in Open Spaces
+ACM,Trace aware random testing for distributed systems
+ACM,Shadow Symbolic Execution for Testing Software Patches
+ACM,Supporting amnesia in log-based recovery protocols
+ACM,LH*RS---a highly-available scalable distributed data structure
+ACM,Characterizing the natural language descriptions in software logging statements
+ACM,Transactional Auto Scaler: Elastic Scaling of Replicated In-Memory Transactional Data Grids
+ACM,Evaluating a query framework for software evolution data
+ACM,Large-scale analysis of framework-specific exceptions in Android apps
+ACM,Predicting the vector impact of change: an industrial case study at brightsquid
+ACM,Enabling mutation testing for Android apps
+ACM,Consistent group membership in ad hoc networks
+ACM,Supporting collaborative development using process models: an integration-focused approach
+ACM,Towards a Blockchain-SDN Architecture for Secure and Trustworthy 5G Massive IoT Networks
+ACM,On the influence of maintenance activity types on the issue resolution time
+ACM,Efficient message ordering in dynamic networks
+ACM,Highly available systems for database applications
+ACM,Towards a Non-2PC Transaction Management in Distributed database systems
+ACM,Getting to Flow in Software Development
+ACM,Fast memory snapshot for concurrent programmingwithout synchronization
+ACM,Using cause-effect analysis to understand the performance of distributed programs
+ACM,Evolving system Families in Space and Time
+ACM,Codecompass: an open software comprehension framework for industrial usage
+ACM,A toolkit for the incremental implementation of heterogeneous database management systems
+ACM,A Survey of Compiler Testing
+ACM,CVEfixes: automated collection of vulnerabilities and their fixes from open-source software
+ACM,Multidatabase Interoperability
+ACM,How surveys tutors and software help to assess Scrum adoption in a classroom software engineering project
+ACM,Asynchronous algorithms for approximate distributed constraint optimization with quality bounds
+ACM,When and why your code starts to smell bad
+ACM,Flexible dynamic injection of structured advice using byteman
+ACM,A framework for high performance simulation of transactional data grid platforms
+ACM,XML3DRepo: a REST API for version controlled 3D assets on the web
+ACM,CLEVER: combining code metrics with clone detection for just-in-time fault prevention and resolution in large industrial projects
+ACM,A survey of rollback-recovery protocols in message-passing systems
+ACM,An empirical study of design discussions in code review
+ACM,Tolerating node failures in cache only memory architectures
+ACM,A Proof-of-Majority Consensus Protocol for Blockchain-enabled Collaboration Infrastructure of 5G Network Slice Brokers
+ACM,Shaping program repair space with existing patches and similar code
+ACM,A decentralized dynamic PKI based on blockchain
+ACM,The Impact of a Major Security Event on an Open Source Project: The Case of OpenSSL
+ACM,Domain-specific model differencing in visual concrete syntax
+ACM,Understanding and Detecting Harmful Code
+ACM,A comparative evaluation of static analysis actionable alert identification techniques
+ACM,git2net: mining time-stamped co-editing networks from large git repositories
+ACM,On the actual use of inheritance and interface in Java projects: evolution and implications
+ACM,Harmonia: near-linear scalability for replicated storage with in-network conflict detection
+ACM,Is Exceptional Behavior Testing an Exception?: An empirical Assessment Using Java Automated Tests
+ACM,Continuous deployment at Facebook and OANDA
+ACM,Building and maintaining a third-party library supply chain for productive and secure SGX enclave development
+ACM,Distributed version management for read-only actions (extended abstract)
+ACM,An experimental framework for improving the performance of BFT consensus for future permissioned blockchains
+ACM,An empirical study on TensorFlow program bugs
+ACM,Improving MMDB distributed transactional concurrency
+ACM,A large-scale study of test coverage evolution
+ACM,To type or not to type: quantifying detectable bugs in JavaScript
+ACM,How do software engineers understand code changes?: an exploratory study in industry
+ACM,Transactions and synchronization in a distributed operating system
+ACM,Adressing problems with external validity of repository mining studies through a smart data platform
+ACM,Planning for untangling: predicting the difficulty of merge conflicts
+ACM,Automating just-in-time comment updating
+ACM,Accurate and efficient refactoring detection in commit history
+ACM,On the correctness of a local storage subsystem
+ACM,LH*?_?a scalable distributed data structure
+ACM,Warranties for faster strong consistency
+ACM,Dissecting the Performance of Strongly-Consistent Replication Protocols
+ACM,Traceability maintenance: factors and guidelines
+ACM,An empirical study on crash recovery bugs in large-scale distributed systems
+ACM,Why we refactor? confessions of GitHub contributors
+ACM,Evaluating representation learning of code changes for predicting patch correctness in program repair
+ACM,Parallelism and concurrency control performance in distributed database machines
+ACM,The vertica analytic database: C-store 7 years later
+ACM,Prevalence of confusing code in software projects: atoms of confusion in the wild
+ACM,uops.info: Characterizing Latency Throughput and Port Usage of Instructions on Intel Microarchitectures
+ACM,Explicitly distributed AOP using AWED
+ACM,CVS integration with notification and chat: lightweight software team collaboration
+ACM,Lessons learned from building and deploying a code review analytics platform
+ACM,A comparative analysis of the security aspects of the multimedia key exchange protocols
+ACM,VulPecker: an automated vulnerability detection system based on code similarity analysis
+ACM,Scalable practical byzantine fault tolerance with short-lived signature schemes
+ACM,Test-driven code review: an empirical study
+ACM,Paxos made live: an engineering perspective
+ACM,Quality and productivity outcomes relating to continuous integration in GitHub
+ACM,Inferring crypto API rules from code changes
+ACM,What changes in where?: an empirical study of bug-fixing change patterns
+ACM,DeFlaker: automatically detecting flaky tests
+ACM,Hoop: efficient hardware-assisted out-of-place update for non-volatile memory
+ACM,A trigger-based middleware cache for ORMs
+ACM,Torturing databases for fun and profit
+ACM,An exploratory study of the pull-based software development model
+ACM,Fast General Distributed Transactions with Opacity
+ACM,An Historical Analysis of the SEAndroid Policy Evolution
+ACM,Distributed programming in Argus
+ACM,DJoin: differentially private join queries over distributed databases
+ACM,Software transactional memory for large scale clusters
+ACM,Detecting flaky tests in probabilistic and machine learning applications
+ACM,Erasure coding for small objects in in-memory KV storage
+ACM,"On the ""naturalness"" of buggy code"
+ACM,TaxDC: A Taxonomy of Non-Deterministic Concurrency Bugs in Datacenter Distributed systems
+ACM,Ocean vista: gossip-based visibility control for speedy geo-distributed transactions
+ACM,CheapBFT: resource-efficient byzantine fault tolerance
+ACM,Distributed transactional reads: the strong the quick the fresh & the impossible
+ACM,A Differential Approach to Undefined Behavior Detection
+ACM,Efficient Consistent Distributed Computation with Predictive Treaties
+ACM,Precision reuse for efficient regression verification
+ACM,An evaluation of distributed concurrency control
+ACM,CASPAR: Breaking Serialization in Lock-Free Multicore Synchronization
+ACM,SDPaxos: Building Efficient Semi-Decentralized Geo-replicated State Machines
+ACM,Mencius: building efficient replicated state machines for WANs
+ACM,How to keep a secret: leakage deterring public-key cryptosystems
+ACM,Formalizing and verifying protocol refinements
+ACM,ZZ and the art of practical BFT execution
+ACM,A Survey of Machine Learning for Big Code and Naturalness
+ACM,Implementation of Argus
+ACM,Understanding the use of lambda expressions in Java
+ACM,Pretend synchrony: synchronous verification of asynchronous distributed programs
+ACM,Learning semantic program embeddings with graph interval neural network
+ACM,Improving bug detection via context-based code representation learning and attention-based neural networks
+ACM,Software Change Contracts
+ACM,Concurrency control in a system for distributed databases (SDD-1)
+ACM,Gatling: Automatic Performance Attack Discovery in Large-Scale Distributed systems
+ACM,Asphalion: trustworthy shielding against Byzantine faults
+ACM,B.Y.O.C (1342 times and counting)
+ACM,On the Comprehension of Program Comprehension
+ACM,SEA: Segment-enrich-annotate paradigm for adapting dialog-based content for improved accessibility
+ACM,Scalable Atomic Visibility with RAMP Transactions
+ACM,Practical byzantine fault tolerance and proactive recovery
+ACM,Parameterized Verification of Asynchronous Shared-Memory systems
+ACM,File servers for network-based distributed systems
+Scopus,ATOM: Commit Message Generation Based on Abstract Syntax Tree and Hybrid Ranking
+Scopus,On the Relevance of Cross-project Learning with Nearest Neighbours for Commit Message Generation
+Scopus,Commit message generation for source code changes
+Scopus,Commit message generation from code differences using hidden markov models
+Scopus,Towards Automatic Generation of Short Summaries of Commits
+Scopus,Quality Assurance for Automated Commit Message Generation
+Scopus,CoreGen: Contextualized Code Representation Learning for Commit Message Generation
+Scopus,Boosting Neural Commit Message Generation with Code Semantic Analysis
+Scopus,Unsupervised learning of general-purpose embeddings for code changes
+Scopus,Neural-Machine-Translation-Based Commit Message Generation: How Far Are We?
+Scopus,ChangeScribe: A Tool for Automatically Generating Commit Messages
+Scopus,Learning Human-Written Commit Messages to Document Code Changes
+Scopus,Generating Commit Messages from Diffs using Pointer-Generator Network
+Scopus,Context-aware Retrieval-based Deep Commit Message Generation
+Scopus,ASE 2017 - Proceedings of the 32nd IEEE/ACM International Conference on Automated Software Engineering
+Scopus,On Automatically Generating Commit Messages via Summarization of Source Code Changes
+Scopus,On Automatic Summarization of What and Why Information in Source Code Changes
+Scopus,Explainable software bot contributions: Case study of automated bug fixes
+Scopus,Cherry-picking of code commits in long-running multi-release software
+Scopus,Towards automatically generating release notes using extractive summarization technique
+Scopus,SpojitR: Intelligently Link Development Artifacts
+Scopus,Content aware source code change description generation
+Scopus,Automatically generating commit messages from diffs using neural machine translation
+Scopus,Use of SLAM Technology to Enhance Performance & Accuracy of Bots
+Scopus,Code Summarizer
+Scopus,Mining Version Control System for Automatically Generating Commit Comment
+Scopus,Automatic generation of pull request descriptions
+Scopus,Survey of State-of-the-art Automatic Code Comment Generation
+Scopus,Exploring User Experience of Automatic Documentation Tools
+Scopus,Automatic Release Notes Generation
+Scopus,Code to Comment 'Translation': Data Metrics Baselining Evaluation
+Scopus,How do developers document database usages in source code?
+Scopus,RCLinker: Automated Linking of Issue Reports and Commits Leveraging Rich Contextual Information
+Scopus,A Commit Messages-Based Bug Localization for Android Applications
+Scopus,Staged tree matching for detecting code move across files
+Scopus,Overview of Mining Software Repositories
+Scopus,Interactive refactoring documentation bot
+Scopus,Linking source code to untangled change intents
+Scopus,Stay Professional and Efficient: Automatically Generate Titles for Your Bug Reports
+Scopus,Automatically documenting software artifacts
+Scopus,Increasing Precision of Automatically Generated Trace Links
+Scopus,Why is my code change abandoned?
+Scopus,Aiding comprehension of unit test cases and test suites with stereotype-based tagging
+Scopus,Concern-driven Reporting of Software Performance Analysis Results
+Scopus,Automated identification of security issues from commit messages and bug reports
+Scopus,Poster: A taxonomy of how method stereotypes change
+Scopus,CoRA: Decomposing and describing tangled code changes for reviewer
+Scopus,Mining Undergraduate Students?_? Code Repositories: Insights from Interdisciplinary Software Projects
+Scopus,PriGen: Towards Automated Translation of Android Applications?_? Code to Privacy Captions
+Scopus,BugSum: Deep context understanding for bug repor summarization
+Scopus,Augmenting Java method comments generation with context information based on neural networks
+Scopus,Automatically redocumenting source code with method and class stereotypes
+Scopus,Post-literate Programming: Linking discussion and code in software development teams
+Scopus,On learning meaningful assert statements for unit test cases
+Scopus,Bug localization by learning to rank and represent bug inducing changes
+Scopus,Method Execution Reports: Generating Text and Visualization to Describe Program Behavior
+Scopus,License Usage and Changes: A Large-Scale Study of Java Projects on GitHub
+Scopus,Retrieve and Refine: Exemplar-based Neural Comment Generation
+Scopus,Automatically Documenting Unit Test Cases
+Scopus,A neural-network based code summarization approach by using source code and its call dependencies
+Scopus,Cldiff: Generating concise linked code differences
+Scopus,Documenting database usages and schema constraints in database-centric applications
+Scopus,Toward the automatic classification of Self-Affirmed Refactoring
+Scopus,Why did this code change?
+Scopus,Automated Comment Update: How Far are We?
+Scopus,Can program synthesis be used to learn merge conflict resolutions? An empirical analysis
+Scopus,A neural architecture for generating natural language descriptions from source code changes
+Scopus,Deep code comment generation with hybrid lexical and syntactical information
+Scopus,Cc2vec: Distributed representations of code changes
+Scopus,Action Word Prediction for Neural Source Code Summarization
+Scopus,Augmenting commit classification by using fine-grained source code changes and a pre-trained deep neural language model
+Scopus,Naturalness of natural language artifacts in software
+Scopus,Automatic classification of source code archives by programming language: A deep learning approach
+Scopus,The impact of test case summaries on bug fixing performance: An empirical investigation
+Scopus,Recommendations for datasets for source code summarization
+Scopus,Towards automatically generating block comments for code snippets
+Scopus,AI-boosted software automation: learning from human pair programmers
+Scopus,How to cherry pick the bug report for better summarization?
+Scopus,A Survey of Automatic Generation of Source Code Comments: Algorithms and Techniques
+Scopus,Construct bug knowledge graph for bug resolution
+Scopus,Decomposing the rationale of code commits: The software developers perspective
+Scopus,Automatic Generation of Large-Granularity Pull Request Description
+Scopus,A Neural Model for Method Name Generation from Functional Description
+Scopus,Automated Documentation of Android Apps
+Scopus,Understanding Software Changes: Extracting Classifying and Presenting Fine-Grained Source Code Changes
+Scopus,Understanding software changes: Extracting classifying and presenting fine-grained source code changes
+Scopus,Towards the Visualization of Usage and Decision Knowledge in Continuous Software Engineering
+Scopus,Intelligent software development environments: Integrating natural language processing with the eclipse platform
+Scopus,Class Level Code Summarization Based on Dependencies and Micro Patterns
+Scopus,Exploranative Code Quality Documents
+Scopus,Deep code comment generation
+Scopus,Assessing the generalizability of code2vec token embeddings
+Scopus,How we refactor and how we document it? On the use of supervised machine learning algorithms to classify refactoring documentation
+Scopus,Generating summaries for methods of event-driven programs: An Android case study
+Scopus,Predicting Code Context Models for Software Development Tasks
+Scopus,A Neural Model for Generating Natural Language Summaries of Program Subroutines
+Scopus,Can a chatbot support software engineers with load testing? approach and experiences
+Scopus,License usage and changes: a large-scale study on gitHub
+Scopus,DEEPLINK: Recovering issue-commit links based on deep learning
+Scopus,Studying the usage of text-to-text transfer transformer to support code-related tasks
+Scopus,ARENA: An Approach for the Automated Generation of Release Notes
+Scopus,Comparing approaches to analyze refactoring activity on software repositories
+Scopus,Automatically Generating Descriptive Texts in Logging Statements: How Far Are We?
+Scopus,Commit classification using natural language processing: Experiments over labeled datasets
+Scopus,Automating app review response generation
+Scopus,How to Explain a Patch: An empirical Study of Patch Explanations in Open Source Projects
+Scopus,An empirical Study of Architectural Changes in Code Commits
+Scopus,Split attention pointer network for source code language modeling
+Scopus,Improved Automatic Summarization of Subroutines via Attention to File Context
+Scopus,Toward imitating visual attention of experts in software development tasks
+Scopus,Project-Level Encoding for Neural Source Code Summarization of Subroutines
+Scopus,Software documentation: The practitioners' perspective
+Scopus,Learning to describe differences between pairs of similar images
+Scopus,Position paper: Experiences on clustering high-dimensional data using pbdR
+Scopus,Automatically Extracting Subroutine Summary Descriptions from Unstructured Comments
+Scopus,Micro level source code summarization of optimal set of object oriented classes
+Scopus,Using Grammar Patterns to Interpret Test Method Name Evolution
+Scopus,How to communicate when submitting patches: An empirical study of the Linux kernel
+Scopus,A Unified Framework to Learn Program Semantics with Graph Neural Networks
+Scopus,Tagging in Assisted Tracing
+Scopus,The Classification and Propagation of Program Comments
+Scopus,Negative results on mining crypto-API usage rules in android apps
+Scopus,A comprehensive model for code readability
+Scopus,A Framework of Vulnerable Code Dataset Generation by Open-Source Injection
+Scopus,COACOR: Code annotation for code retrieval with reinforcement learning
+Scopus,Capturing Source Code Semantics via Tree-based Convolution over API-enhanced AST
+Scopus,CPC: Automatically classifying and propagating natural language comments via program analysis
+Scopus,Which method-stereotype changes are indicators of code smells?
+Scopus,Why My Code Summarization Model Does Not Work: Code Comment Improvement with Category Prediction
+Scopus,Software Documentation Issues Unveiled
+Scopus,What code is deliberately excluded from test coverage and why?
+Scopus,From UI design image to GUI skeleton: A neural machine translator to bootstrap mobile GUI implementation
+Scopus,SPIDER: Enabling fast patch propagation in related software repositories
+Scopus,An empirical investigation of how and why developers rename identifiers
+Scopus,Generating API tags for tutorial fragments from Stack Overflow
+Scopus,Tool support for decision and usage knowledge in continuous software engineering
+Scopus,JITLine: A simpler better faster finer-grained just-in-time defect prediction
+Scopus,On Learning Meaningful Code Changes Via Neural Machine Translation
+Scopus,Automating Just-In-Time Comment Updating
+Scopus,Summarizing Software Artifacts: A Literature Review
+Scopus,An empirical study on the co-occurrence between refactoring actions and Self-Admitted Technical Debt removal
+Scopus,Generating Question Titles for Stack Overflow from Mined Code Snippets
+Scopus,An exploratory study on automatic architectural change analysis using natural language processing techniques
+Scopus,Auxiliary Method for Code Commit Comprehension Based on Core-Class Identification
+Scopus,Neural detection of semantic code clones via tree-based convolution
+Scopus,Retrieval-based neural source code summarization
+Scopus,Predicting defects with latent and semantic features from commit logs in an industrial setting
+Scopus,"On the distribution of ""simple stupid bugs"" in unit test files: An exploratory study"
+Scopus,A hybrid code representation learning approach for predicting method names
+Scopus,Doppio: Tracking UI flows and code changes for app development
+Scopus,App-Aware Response Synthesis for User Reviews
+Scopus,On-demand developer documentation
+Scopus,DCDFNE: Build dataset to evaluate binary codes diffing tools and train deep learning models
+Scopus,Decision knowledge triggers in continuous software engineering
+Scopus,Anomaly detection in smart grids with imbalanced data methods
+Scopus,Statistical machine translation outperforms neural machine translation in software engineering: Why and how
+Scopus,Trader: Trace divergence analysis and embedding regulation for debugging recurrent neural networks
+Scopus,On the naturalness of hardware descriptions
+Scopus,CORE: Automating Review Recommendation for Code Changes
+Scopus,Summarization techniques for code change testing and user feedback
+Scopus,Prediction of relatedness in stack overflow: Deep learning vs. SVM: A reproducibility study
+Scopus,Natural language processing in mining unstructured data from software repositories: a review
+Scopus,Characterizing the natural language descriptions in software logging statements
+Scopus,SATDBailiff-mining and tracking self-admitted technical debt
+Scopus,An empirical Study of Abbreviations and Expansions in Software Artifacts
+Scopus,On preserving the behavior in software refactoring: A systematic mapping study
+Scopus,Self-reported activities of Android developers
+Scopus,Impact analysis of change requests on source code based on interaction and commit histories
+Scopus,Shallow or Deep? An empirical Study on Detecting Vulnerabilities using Deep Learning
+Scopus,How Developers Document Pull Requests with External References
+Scopus,Why do they ask? An exploratory study of crowd discussions about Android application programming interface in stack overflow Overflow?
+Scopus,Comparing developer-provided to user-provided tests for fault localization and automated program repair
+Scopus,Revisiting the VCCFinder approach for the identification of vulnerability-contributing commits
+Scopus,Devign: Effective vulnerability identification by learning comprehensive program semantics via graph neural networks
+Scopus,A hosting service of multi-language historage repositories
+Scopus,Mining unstructured data in software repositories: Current & future trends
+Scopus,FRLink: Improving the recovery of missing issue-commit links by revisiting file relevance
+Scopus,AUTOTRAINER: An automatic DNN training problem detection and repair system
+Scopus,On the generation structure and semantics of grammar patterns in source code identifiers
+Scopus,Bot or not?: Detecting bots in GitHub pull request activity based on comment similarity
+Scopus,Summarizing vulnerabilities?_? descriptions to support experts during vulnerability assessment activities
+Scopus,Mining Fix Patterns for FindBugs Violations
+Scopus,An empirical study on the usage of BERT models for code completion
+Scopus,Which Commits Can Be CI Skipped?
+Scopus,How to build a vulnerability benchmark to overcome cyber security attacks
+Scopus,Traceability in the wild: Automatically augmenting incomplete trace links
+Scopus,On using Stack Overflow comment-edit pairs to recommend code maintenance changes
+Scopus,Machine learning based recommendation of method names: How far are we
+Scopus,Confusion in Code Reviews: Reasons Impacts and Coping Strategies
+Scopus,PatchDB: A Large-Scale Security Patch Dataset
+Scopus,Interaction-based creation and maintenance of continuously usable trace links between requirements and source code
+Scopus,A survey of machine learning for big code and naturalness
+Scopus,Mining the software engineering forums: What?_?s new and what?_?s left
+Scopus,Information needs in contemporary code review
+Scopus,Identifying change patterns of API misuses from code changes
+Scopus,Unakite: Scaffolding developers' decision-making using the web
+Scopus,Natural Software Revisited
+Scopus,Software practitioner perspectives on merge conflicts and resolutions
+Scopus,Rapid analysis of disease state in liquid human serum combining infrared spectroscopy and ?_?digital drying?_?
+Scopus,Learning Latest Private-Cluster-State to Improve the Performance of Sample-Based Cluster Scheduling
+Scopus,DeepLV: Suggesting log levels using ordinal based neural networks
+Scopus,Version Control Systems: An Information Foraging Perspective
+Scopus,Team Discussions and Dynamics during DevOps Tool Adoptions in OSS Projects
+Scopus,Self-admitted technical debt practices: a comparison between industry and open-source
+Scopus,Crowdsourcing user reviews to support the evolution of mobile apps
+Scopus,Survey of Intelligent Code Completion
+Scopus,An empirical study of quick remedy commits
+Scopus,A Novel Neural Source Code Representation Based on Abstract Syntax Tree
+Scopus,DeepWukong: Statically Detecting Software Vulnerabilities Using Deep Graph Neural Network
+Scopus,Experience report: investigating bug fixes in machine learning frameworks/libraries
+Scopus,Data-driven approach to application programming interface documentation mining: A review
+Scopus,Prioritizing refactorings for security-critical code
+Scopus,Learning to Spot and Refactor Inconsistent Method Names
+Scopus,Mining energy-aware commits
+Scopus,Effectiveness of exploring historical commits for developer recommendation: an empirical study
+Scopus,How to Better Distinguish Security Bug Reports (Using Dual Hyperparameter Optimization)
+Scopus,The life-cycle of merge conflicts: processes barriers and strategies
+Scopus,Studying the difference between natural and programming language corpora
+Scopus,Fine-grained just-in-time defect prediction
+Scopus,A ground-truth dataset and classification model for detecting bots in GitHub issue and PR comments
+Scopus,Blinder - Scalable Robust Anonymous Committed Broadcast
+Scopus,DeepJIT: An end-to-end deep learning framework for just-in-time defect prediction
+Scopus,Standing on shoulders or feet? The usage of the MSR data papers
+Scopus,Software evolution: the lifetime of fine-grained elements
+Scopus,On the naming of methods: A survey of professional developers
+Scopus,Defect Comprehension Research: Present Problem and Prospect
+Scopus,Security Bug Report Usage for Software Vulnerability Research: A Systematic Mapping Study
+Scopus,How Far Have We Progressed in Identifying Self-admitted Technical Debts? A Comprehensive empirical Study
+Scopus,Standing on shoulders or feet? An extended study on the usage of the MSR data papers
+Scopus,Attacks and defences on intelligent connected vehicles: a survey
