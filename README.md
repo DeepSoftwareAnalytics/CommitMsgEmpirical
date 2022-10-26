@@ -2,7 +2,7 @@ This is the replication package for "[On the Evaluation of Commit Message Genera
 
 **Welcome to use our dataset, [MCMD](dataset/), and the [evaluation scripts](metrics/) to test the performance of the commit message generation!**
 
-Citations for these two works can be found [here](#Citation)
+Citations for these two works can be found [here](#Citation).
 
 ## Environment
 
