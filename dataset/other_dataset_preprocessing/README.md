@@ -1,0 +1,1 @@
+Note: [data4CopynetV3.py](data4CopynetV3.py) in this folder is a revised version from [CoDiSum Repository](https://github.com/SoftWiser-group/CoDiSum/blob/master/data4CopynetV3.py) and it is used to preprocess MCMD to apply to the method, [CoDiSum](https://github.com/SoftWiser-group/CoDiSum).
